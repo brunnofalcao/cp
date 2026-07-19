@@ -1,0 +1,91 @@
+{
+  "nav": { "home": "Início", "about": "Sobre", "areas": "Áreas de Atuação", "blog": "Blog", "contact": "Contato" },
+  "hero": {
+    "kicker": "Investigação Clínica de Alta Complexidade",
+    "title": "Investigação clínica para casos que outros médicos não resolveram",
+    "subtitle": "Referência em Síndrome de Ativação de Mastócitos (SAM), Síndrome de Ehlers-Danlos (SED) e Covid Longa. Quando o diagnóstico exige mais do que 15 minutos.",
+    "cta": "Agendar consulta",
+    "cta2": "Conhecer as áreas de atuação"
+  },
+  "validation": {
+    "title": "Você não é \"frescura\"",
+    "body": "Quantos médicos você já consultou? Quantas vezes ouviu que \"seus exames estão normais\"? Seus sintomas são reais. Não é ansiedade, não é \"coisa da sua cabeça\". Aqui, você será ouvido — e sairá com direcionamento claro.",
+    "quote": "Profundidade antes de resposta."
+  },
+  "method": {
+    "title": "Medicina investigativa",
+    "body": "Medicina investigativa não é apenas pedir exames. É correlacionar sintomas aparentemente desconexos, reconhecer padrões que outros não veem e ter coragem para considerar diagnósticos raros.",
+    "items": [
+      { "t": "Anamnese detalhada", "d": "Consultas longas, com escuta ativa e correlação de sintomas multissistêmicos." },
+      { "t": "Rigor investigativo", "d": "Diagnósticos baseados em evidência científica sólida e atualização contínua em condições raras." },
+      { "t": "Orientação de trajetória", "d": "Direcionamento claro — e a disposição para dizer \"não é minha área, mas sei quem pode ajudar\"." }
+    ]
+  },
+  "areasHome": {
+    "title": "Áreas de atuação",
+    "items": [
+      { "t": "Síndrome de Ativação de Mastócitos (SAM)", "d": "Sintomas multissistêmicos, alergias inexplicadas, reações a alimentos e medicamentos.", "slug": "sam" },
+      { "t": "Síndrome de Ehlers-Danlos (SED)", "d": "Hipermobilidade, dor crônica, luxações e comorbidades associadas.", "slug": "sed" },
+      { "t": "Covid Longa", "d": "Fadiga persistente, névoa mental e sintomas que permanecem após a infecção.", "slug": "covid-longa" },
+      { "t": "Medicina do Sono", "d": "Investigação de sono não reparador, apneia, insônia e sonolência excessiva.", "slug": "medicina-do-sono" }
+    ]
+  },
+  "blog": {
+    "title": "Blog — Ciência traduzida com clareza",
+    "subtitle": "Conteúdo científico explicado para você, sem simplificações que distorcem.",
+    "readMore": "Ler artigo",
+    "all": "Ver todos os artigos",
+    "faqTitle": "Perguntas frequentes",
+    "backToBlog": "← Voltar ao blog",
+    "disclaimer": "Este conteúdo tem caráter informativo e não substitui consulta médica. Procure sempre avaliação individualizada."
+  },
+  "lp": {
+    "formAnchor": "Solicitar avaliação",
+    "symptomsKicker": "Reconhecimento",
+    "symptomsNote": "Nenhum sintoma isolado fecha diagnóstico. É o conjunto que desenha o padrão — e é esse conjunto que a investigação analisa.",
+    "evidenceKicker": "Base científica",
+    "journeyKicker": "Como funciona",
+    "journeyTitle": "O caminho da investigação",
+    "journeySteps": [
+      { "t": "Anamnese aprofundada", "d": "Consulta longa que cobre todos os sistemas do corpo, com linha do tempo dos sintomas e correlação clínica. Profundidade antes de resposta." },
+      { "t": "Exame físico dirigido", "d": "Avaliação específica conforme a hipótese: hipermobilidade, sinais cutâneos, aferição ortostática padronizada." },
+      { "t": "Exames por hipótese", "d": "O exame certo, colhido do jeito certo, no momento certo — não uma bateria genérica que volta normal." },
+      { "t": "Plano e direcionamento", "d": "Hipóteses claras, conduta fundamentada em evidência e, quando o caso exigir outra especialidade, o encaminhamento correto." }
+    ],
+    "formKicker": "Primeiro passo",
+    "formTitle": "Solicite uma avaliação do seu caso",
+    "formLead": "Preencha os dados abaixo e a equipe entrará em contato para orientar sobre a investigação e o agendamento. Quanto mais contexto você trouxer, melhor a primeira consulta rende.",
+    "medicalDisclaimer": "Este formulário não realiza diagnóstico nem substitui consulta médica. As informações enviadas são usadas exclusivamente para contato e orientação sobre agendamento, conforme a Lei Geral de Proteção de Dados."
+  },
+  "form": {
+    "title": "Solicitar avaliação",
+    "subtitle": "Resposta em até 2 dias úteis.",
+    "name": "Nome completo",
+    "email": "E-mail",
+    "phone": "WhatsApp",
+    "phoneHint": "Com DDD. Opcional, mas acelera o contato.",
+    "duration": "Há quanto tempo convive com os sintomas?",
+    "select": "Selecione",
+    "durationOptions": ["Menos de 6 meses", "6 meses a 2 anos", "2 a 5 anos", "Mais de 5 anos"],
+    "consent": "Autorizo o contato e o tratamento dos meus dados para fins de agendamento, conforme a LGPD.",
+    "submit": "Enviar solicitação",
+    "sending": "Enviando…",
+    "success": "Solicitação recebida.",
+    "successBody": "A equipe entrará em contato em até 2 dias úteis. Se preferir, você também pode falar diretamente pelo WhatsApp.",
+    "error": "Não foi possível enviar agora. Tente novamente ou fale pelo WhatsApp.",
+    "errName": "Informe seu nome completo.",
+    "errEmail": "Informe um e-mail válido.",
+    "errConsent": "É necessário autorizar o contato para prosseguir."
+  },
+  "contact": {
+    "title": "Contato e agendamento",
+    "phone": "Telefone",
+    "whatsapp": "WhatsApp",
+    "addressTitle": "Endereço",
+    "cta": "Falar no WhatsApp"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "credentials": "Médica · CRM-DF 15342 · RQE 16243 / 12865 · Especialista em Medicina do Sono"
+  }
+}

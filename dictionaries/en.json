@@ -1,0 +1,91 @@
+{
+  "nav": { "home": "Home", "about": "About", "areas": "Areas of Practice", "blog": "Blog", "contact": "Contact" },
+  "hero": {
+    "kicker": "High-Complexity Clinical Investigation",
+    "title": "Clinical investigation for cases other physicians could not solve",
+    "subtitle": "A reference in Mast Cell Activation Syndrome (MCAS), Ehlers-Danlos Syndrome (EDS) and Long COVID. For when a diagnosis takes more than 15 minutes.",
+    "cta": "Book an appointment",
+    "cta2": "Explore areas of practice"
+  },
+  "validation": {
+    "title": "It is not \"all in your head\"",
+    "body": "How many doctors have you seen? How many times have you heard that \"your tests are normal\"? Your symptoms are real. It is not anxiety, and it is not imaginary. Here, you will be heard — and you will leave with clear direction.",
+    "quote": "Depth before answers."
+  },
+  "method": {
+    "title": "Investigative medicine",
+    "body": "Investigative medicine is not just ordering tests. It means correlating seemingly unrelated symptoms, recognizing patterns others miss, and having the courage to consider rare diagnoses.",
+    "items": [
+      { "t": "Detailed clinical history", "d": "Long consultations, active listening and correlation of multisystem symptoms." },
+      { "t": "Investigative rigor", "d": "Diagnoses grounded in solid scientific evidence and continuous training in rare conditions." },
+      { "t": "Trajectory guidance", "d": "Clear direction — and the honesty to say \"this is not my field, but I know who can help\"." }
+    ]
+  },
+  "areasHome": {
+    "title": "Areas of practice",
+    "items": [
+      { "t": "Mast Cell Activation Syndrome (MCAS)", "d": "Multisystem symptoms, unexplained allergies, reactions to foods and medications.", "slug": "sam" },
+      { "t": "Ehlers-Danlos Syndrome (EDS)", "d": "Hypermobility, chronic pain, dislocations and associated comorbidities.", "slug": "sed" },
+      { "t": "Long COVID", "d": "Persistent fatigue, brain fog and symptoms that remain after infection.", "slug": "covid-longa" },
+      { "t": "Sleep Medicine", "d": "Investigation of non-restorative sleep, apnea, insomnia and excessive sleepiness.", "slug": "medicina-do-sono" }
+    ]
+  },
+  "blog": {
+    "title": "Blog — Science, translated clearly",
+    "subtitle": "Scientific content explained for you, without distorting simplifications.",
+    "readMore": "Read article",
+    "all": "See all articles",
+    "faqTitle": "Frequently asked questions",
+    "backToBlog": "← Back to blog",
+    "disclaimer": "This content is for information only and does not replace a medical consultation. Always seek individualized care."
+  },
+  "lp": {
+    "formAnchor": "Request an assessment",
+    "symptomsKicker": "Recognition",
+    "symptomsNote": "No single symptom confirms a diagnosis. It is the whole set that draws the pattern — and that set is what the investigation analyzes.",
+    "evidenceKicker": "Scientific basis",
+    "journeyKicker": "How it works",
+    "journeyTitle": "The investigative path",
+    "journeySteps": [
+      { "t": "In-depth clinical history", "d": "A long consultation covering every body system, with a symptom timeline and clinical correlation. Depth before answers." },
+      { "t": "Targeted physical exam", "d": "Specific assessment according to the hypothesis: hypermobility, skin signs, standardized orthostatic measurement." },
+      { "t": "Hypothesis-driven testing", "d": "The right test, collected the right way, at the right time — not a generic panel that comes back normal." },
+      { "t": "Plan and direction", "d": "Clear hypotheses, evidence-based management and, when the case requires another specialty, the correct referral." }
+    ],
+    "formKicker": "First step",
+    "formTitle": "Request an assessment of your case",
+    "formLead": "Fill in the details below and the team will get in touch to guide you on investigation and scheduling. The more context you bring, the more the first consultation delivers.",
+    "medicalDisclaimer": "This form does not provide a diagnosis and does not replace a medical consultation. The information submitted is used solely for contact and scheduling guidance, in accordance with Brazilian data protection law (LGPD)."
+  },
+  "form": {
+    "title": "Request an assessment",
+    "subtitle": "Response within 2 business days.",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "WhatsApp",
+    "phoneHint": "Include country code. Optional, but speeds up contact.",
+    "duration": "How long have you had these symptoms?",
+    "select": "Select",
+    "durationOptions": ["Less than 6 months", "6 months to 2 years", "2 to 5 years", "More than 5 years"],
+    "consent": "I authorize contact and the processing of my data for scheduling purposes, under the LGPD.",
+    "submit": "Send request",
+    "sending": "Sending…",
+    "success": "Request received.",
+    "successBody": "The team will be in touch within 2 business days. You can also reach out directly on WhatsApp if you prefer.",
+    "error": "We couldn't send this right now. Please try again or contact us on WhatsApp.",
+    "errName": "Please enter your full name.",
+    "errEmail": "Please enter a valid email address.",
+    "errConsent": "You must authorize contact to proceed."
+  },
+  "contact": {
+    "title": "Contact and scheduling",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "addressTitle": "Address",
+    "cta": "Message on WhatsApp"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "credentials": "Physician · CRM-DF 15342 · RQE 16243 / 12865 · Sleep Medicine Specialist"
+  }
+}

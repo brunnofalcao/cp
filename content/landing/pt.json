@@ -1,0 +1,182 @@
+{
+  "sam": {
+    "slug": "sam",
+    "condition": "Síndrome de Ativação de Mastócitos",
+    "title": "Síndrome de Ativação de Mastócitos (SAM) — investigação em Brasília",
+    "metaDesc": "Reações sem alergia comprovada, sintomas em vários sistemas ao mesmo tempo? Investigação de SAM com critérios científicos. Dra. Carine Petry, CRM-DF 15342.",
+    "keywords": ["síndrome de ativação de mastócitos", "SAM médico", "MCAS Brasil", "especialista mastócitos", "triptase exame"],
+    "kicker": "Investigação Clínica · SAM",
+    "h1": "Reações que não são alergia. Exames normais. Sintomas reais.",
+    "sub": "Se o seu corpo reage a alimentos, medicamentos, calor ou estresse — e nenhum exame de alergia explica —, a Síndrome de Ativação de Mastócitos precisa entrar na investigação.",
+    "trust": [
+      { "v": "CRM-DF 15342", "k": "Registro médico" },
+      { "v": "RQE 16243", "k": "Especialista" },
+      { "v": "1h+", "k": "Duração da consulta" },
+      { "v": "Brasília-DF", "k": "Atendimento" }
+    ],
+    "symptomsTitle": "Você reconhece este conjunto?",
+    "symptomsLead": "A marca da SAM é o envolvimento de dois ou mais sistemas do corpo ao mesmo tempo. Isoladamente, cada sintoma leva a um especialista diferente — e a investigação nunca avança.",
+    "symptoms": [
+      "Rubor no rosto e pescoço sem motivo aparente",
+      "Coceira, urticária ou dermografismo",
+      "Dor abdominal, diarreia ou refluxo que não cede",
+      "Intolerância a múltiplos alimentos, sobretudo os ricos em histamina",
+      "Palpitações ou taquicardia sem causa cardíaca",
+      "Queda de pressão e sensação de desmaio",
+      "Dor de cabeça e enxaqueca frequentes",
+      "Névoa mental e ansiedade durante as crises",
+      "Congestão nasal crônica ou falta de ar leve",
+      "Crises desencadeadas por calor, exercício, álcool ou estresse"
+    ],
+    "evidenceTitle": "O que a ciência estabelece sobre o diagnóstico",
+    "evidenceLead": "A SAM não é diagnosticada por exclusão nem por intuição. A literatura define critérios objetivos — e o exame precisa ser colhido no momento certo.",
+    "evidence": [
+      { "t": "Critério 1 — quadro clínico", "d": "Sintomas típicos e recorrentes de liberação de mediadores de mastócitos, envolvendo dois ou mais sistemas do corpo." },
+      { "t": "Critério 2 — evidência laboratorial", "d": "Elevação transitória de mediadores durante os sintomas. O mais estudado é a triptase sérica; também se avaliam metabólitos urinários de histamina, prostaglandina D2 e leucotrieno E4." },
+      { "t": "Critério 3 — resposta terapêutica", "d": "Resposta clínica a medicamentos que bloqueiam a ação ou a produção desses mediadores." },
+      { "t": "O detalhe que muda tudo", "d": "Fora da crise, os exames costumam vir normais. A coleta durante ou logo após o episódio é parte crítica da investigação — e é onde a maioria dos casos se perde." }
+    ],
+    "faq": [
+      { "q": "A SAM aparece em exame de alergia?", "a": "Não. Testes de alergia convencionais investigam reação mediada por IgE a alérgenos específicos. Na SAM, os mastócitos liberam mediadores de forma inadequada sem esse mecanismo — por isso os testes de alergia costumam vir negativos enquanto os sintomas continuam reais." },
+      { "q": "Quanto tempo leva para diagnosticar SAM?", "a": "Depende da coleta dos mediadores no momento certo e da correlação de todo o quadro clínico. A primeira consulta define as hipóteses e o plano de exames; o fechamento diagnóstico costuma exigir retornos com resultados em mãos." },
+      { "q": "A SAM tem relação com Ehlers-Danlos e POTS?", "a": "Sim. A literatura descreve uma sobreposição frequente entre SAM, Síndrome de Ehlers-Danlos hipermóvel e disautonomia/POTS. Investigar uma dessas condições exige considerar as outras." },
+      { "q": "Preciso de encaminhamento para consultar?", "a": "Não é necessário encaminhamento. É útil levar exames anteriores em ordem cronológica e um registro dos sintomas e gatilhos." }
+    ]
+  },
+
+  "sed": {
+    "slug": "sed",
+    "condition": "Síndrome de Ehlers-Danlos",
+    "title": "Síndrome de Ehlers-Danlos (SED) e hipermobilidade — avaliação clínica",
+    "metaDesc": "Hipermobilidade com dor crônica, luxações e fadiga? Avaliação de SED hipermóvel pelos critérios internacionais. Dra. Carine Petry, CRM-DF 15342, Brasília-DF.",
+    "keywords": ["síndrome de ehlers-danlos", "hipermobilidade articular médico", "hEDS diagnóstico", "escala de Beighton", "dor crônica hipermobilidade"],
+    "kicker": "Investigação Clínica · SED",
+    "h1": "Flexibilidade não deveria doer todos os dias.",
+    "sub": "Hipermobilidade acompanhada de dor crônica, luxações e fadiga não é normalidade. A média internacional entre o primeiro sintoma e o diagnóstico de SED ultrapassa dez anos.",
+    "trust": [
+      { "v": "CRM-DF 15342", "k": "Registro médico" },
+      { "v": "Critérios 2017", "k": "Padrão internacional" },
+      { "v": "1h+", "k": "Duração da consulta" },
+      { "v": "Brasília-DF", "k": "Atendimento" }
+    ],
+    "symptomsTitle": "Sinais que merecem avaliação",
+    "symptomsLead": "A SED hipermóvel raramente se apresenta como uma queixa só. É o conjunto — articulações, pele, fadiga, digestão e sistema autonômico — que desenha o padrão.",
+    "symptoms": [
+      "Articulações que se movem além do normal",
+      "Dor musculoesquelética crônica e difusa",
+      "Luxações ou subluxações frequentes",
+      "Entorses repetidas com trauma mínimo",
+      "Pele macia, aveludada ou com cicatrização atípica",
+      "Fadiga desproporcional ao esforço",
+      "Tontura ao levantar e palpitações",
+      "Refluxo, constipação ou dismotilidade intestinal",
+      "Dor pélvica crônica ou cólicas menstruais intensas",
+      "Sono não reparador"
+    ],
+    "evidenceTitle": "Como o diagnóstico é feito",
+    "evidenceLead": "Para o subtipo hipermóvel não existe exame de sangue ou genético que confirme. O diagnóstico é clínico — o que torna o exame físico especializado e a anamnese detalhada insubstituíveis.",
+    "evidence": [
+      { "t": "Escala de Beighton", "d": "Pontuação padronizada e internacionalmente validada para medir objetivamente a hipermobilidade articular." },
+      { "t": "Critérios sistêmicos de 2017", "d": "Avaliação de características da pele, histórico de luxações, dor crônica e outros critérios definidos no consenso internacional." },
+      { "t": "Exclusão diferencial", "d": "Afastamento de outras doenças hereditárias do tecido conjuntivo, o que exige conhecimento específico do espectro." },
+      { "t": "Busca ativa de comorbidades", "d": "Disautonomia, ativação mastocitária e distúrbios do sono coexistem com frequência — e mudam completamente a condução do caso." }
+    ],
+    "faq": [
+      { "q": "Existe exame para confirmar a SED hipermóvel?", "a": "Não para o subtipo hipermóvel (hEDS). O diagnóstico é clínico, baseado na escala de Beighton, nos critérios sistêmicos internacionais de 2017 e na exclusão de outras condições do tecido conjuntivo. Outros subtipos de SED têm marcadores genéticos." },
+      { "q": "Ser flexível significa ter SED?", "a": "Não. Hipermobilidade isolada e assintomática é comum na população. O sinal de alerta é hipermobilidade acompanhada de dor crônica, luxações, fadiga, disautonomia ou sintomas multissistêmicos." },
+      { "q": "O que levar para a consulta?", "a": "Histórico de luxações e entorses, fotos ou vídeos das manobras de hipermobilidade que você consegue fazer, exames anteriores e a lista completa de sintomas — inclusive os que parecem não ter relação entre si." },
+      { "q": "SED tem tratamento?", "a": "A SED é uma condição genética sem cura, mas com manejo. O objetivo é controlar a dor, proteger as articulações, tratar as comorbidades associadas e devolver funcionalidade — sempre com plano individualizado." }
+    ]
+  },
+
+  "covid-longa": {
+    "slug": "covid-longa",
+    "condition": "Covid Longa",
+    "title": "Covid Longa — investigação de fadiga persistente e névoa mental",
+    "metaDesc": "Fadiga, névoa mental e intolerância ao esforço meses após a Covid-19? Investigação multissistêmica de Covid Longa. Dra. Carine Petry, CRM-DF 15342, Brasília-DF.",
+    "keywords": ["covid longa médico", "fadiga pós-covid tratamento", "síndrome pós-covid", "névoa mental covid", "sequelas covid investigação"],
+    "kicker": "Investigação Clínica · Covid Longa",
+    "h1": "A infecção passou. Você não voltou a ser quem era.",
+    "sub": "Fadiga que não cede, névoa mental, esforço de ontem cobrando a conta hoje. A Covid Longa é reconhecida pela OMS, tem base fisiopatológica em investigação ativa — e exige avaliação multissistêmica.",
+    "trust": [
+      { "v": "CRM-DF 15342", "k": "Registro médico" },
+      { "v": "Medicina do Sono", "k": "Especialidade (RQE)" },
+      { "v": "1h+", "k": "Duração da consulta" },
+      { "v": "Brasília-DF", "k": "Atendimento" }
+    ],
+    "symptomsTitle": "Os sintomas mais descritos na literatura",
+    "symptomsLead": "A OMS define Covid Longa como a persistência ou o surgimento de sintomas três meses após a infecção, com duração mínima de dois meses e sem outra explicação diagnóstica.",
+    "symptoms": [
+      "Fadiga desproporcional e persistente",
+      "Mal-estar pós-esforço — piora significativa após atividade",
+      "Névoa mental, falhas de memória e concentração",
+      "Sono não reparador e distúrbios do sono",
+      "Falta de ar e intolerância ao exercício",
+      "Palpitações e tontura ao ficar de pé",
+      "Dores musculares e articulares",
+      "Alterações persistentes de olfato e paladar",
+      "Reações alérgico-símiles que não existiam antes",
+      "Sintomas digestivos novos ou agravados"
+    ],
+    "evidenceTitle": "O que a ciência investiga como mecanismo",
+    "evidenceLead": "A Covid Longa não é um mistério sem pistas. As linhas de evidência apontam mecanismos que podem coexistir no mesmo paciente — e é por isso que a avaliação precisa ser integrada.",
+    "evidence": [
+      { "t": "Disfunção imune e inflamação persistente", "d": "Inflamação de baixo grau que se mantém após a resolução da infecção aguda." },
+      { "t": "Disautonomia", "d": "Desregulação do sistema nervoso autônomo, frequentemente na forma de POTS — explica taquicardia, tontura e intolerância ortostática." },
+      { "t": "Ativação de mastócitos", "d": "Mediadores inflamatórios que produzem sintomas alérgico-símiles e multissistêmicos surgidos após a infecção." },
+      { "t": "Alterações microvasculares", "d": "Mudanças de perfusão tecidual em estudo como parte da explicação para fadiga e névoa mental." },
+      { "t": "Por que exames normais não descartam", "d": "Hemograma, TSH e vitamina D normais não excluem Covid Longa. A definição é clínica e a investigação precisa ser dirigida por hipótese." }
+    ],
+    "faq": [
+      { "q": "Covid Longa é psicológica?", "a": "Não. A Covid Longa é reconhecida pela Organização Mundial da Saúde e tem base fisiopatológica em investigação ativa: disfunção imune, inflamação persistente, disautonomia e alterações microvasculares estão entre os mecanismos estudados. Os sintomas são reais e mensuráveis." },
+      { "q": "Quanto tempo dura a Covid Longa?", "a": "A evolução varia bastante entre pacientes. Alguns melhoram ao longo de meses; outros mantêm sintomas por períodos prolongados. Identificar e tratar mecanismos específicos — como disautonomia, ativação mastocitária ou distúrbio do sono — costuma mudar a trajetória." },
+      { "q": "O que é mal-estar pós-esforço?", "a": "É a piora significativa dos sintomas após atividade física ou mental, muitas vezes com atraso de horas ou de um dia. É um dos sintomas mais importantes da avaliação, porque muda diretamente a conduta e contraindica abordagens de exercício progressivo agressivo." },
+      { "q": "O que registrar antes da consulta?", "a": "A data da infecção e quando cada sintoma surgiu, o que piora e o que alivia, o padrão de sono e energia ao longo do dia, e a frequência cardíaca deitado e após 2, 5 e 10 minutos em pé." }
+    ]
+  },
+
+  "medicina-do-sono": {
+    "slug": "medicina-do-sono",
+    "condition": "Medicina do Sono",
+    "title": "Medicina do Sono — investigação de sono não reparador e apneia",
+    "metaDesc": "Dorme oito horas e acorda exausto? Investigação de apneia, insônia e sono não reparador com especialista em Medicina do Sono. Dra. Carine Petry, RQE 16243, Brasília-DF.",
+    "keywords": ["médico especialista em sono", "sono não reparador", "apneia do sono Brasília", "insônia crônica tratamento", "polissonografia indicação"],
+    "kicker": "Investigação Clínica · Medicina do Sono",
+    "h1": "Dormir oito horas e acordar como se não tivesse dormido.",
+    "sub": "Acordar cansado todos os dias não é traço de personalidade. É sintoma — e o sono é um dos eixos mais negligenciados na investigação de fadiga, dor crônica e névoa mental.",
+    "trust": [
+      { "v": "RQE 16243", "k": "Especialista em Sono" },
+      { "v": "CRM-DF 15342", "k": "Registro médico" },
+      { "v": "1h+", "k": "Duração da consulta" },
+      { "v": "Brasília-DF", "k": "Atendimento" }
+    ],
+    "symptomsTitle": "Sinais de que o seu sono não está restaurando",
+    "symptomsLead": "O sono reparador depende de arquitetura: ciclos organizados e contínuos o bastante para o corpo consolidar memória, regular imunidade e hormônios e fazer a limpeza metabólica cerebral.",
+    "symptoms": [
+      "Acordar sem descanso mesmo após tempo suficiente de sono",
+      "Ronco alto ou pausas na respiração observadas por terceiros",
+      "Despertares com engasgo ou sensação de sufocamento",
+      "Dor de cabeça ao acordar",
+      "Sonolência excessiva durante o dia",
+      "Dificuldade de concentração e memória",
+      "Sono agitado e muitas mudanças de posição",
+      "Insônia de manutenção — acordar de madrugada e não voltar a dormir",
+      "Pernas inquietas ao deitar",
+      "Irritabilidade e queda de desempenho"
+    ],
+    "evidenceTitle": "Por que o sono é estrutural na investigação",
+    "evidenceLead": "Sono fragmentado amplifica dor, piora disautonomia, agrava sintomas cognitivos e mina qualquer tratamento. Ignorar esse eixo é tentar encher um balde furado.",
+    "evidence": [
+      { "t": "Apneia obstrutiva do sono", "d": "Pausas respiratórias que forçam microdespertares dezenas ou centenas de vezes por noite. Em mulheres, pode se manifestar como insônia, fadiga e dor de cabeça matinal, sem ronco chamativo." },
+      { "t": "Movimentos periódicos e pernas inquietas", "d": "Fragmentam o sono sem que o paciente perceba os despertares. A avaliação de ferritina faz parte da investigação." },
+      { "t": "Dor crônica e sono", "d": "A relação é de mão dupla: a dor fragmenta o sono, e o sono fragmentado reduz o limiar de dor." },
+      { "t": "Polissonografia", "d": "Registra ao longo da noite respiração, oxigenação, atividade cerebral e movimentos. Indicada quando há suspeita clínica — não como rastreio universal." }
+    ],
+    "faq": [
+      { "q": "Quando a polissonografia é indicada?", "a": "Quando há suspeita clínica de distúrbio do sono: sono não reparador persistente, ronco com pausas respiratórias, sonolência excessiva diurna, ou quando um quadro complexo de fadiga, névoa mental ou dor crônica exige avaliar objetivamente a qualidade do sono." },
+      { "q": "Apneia do sono só acontece em homens que roncam?", "a": "Não. A apneia é subdiagnosticada em mulheres justamente porque a apresentação costuma ser diferente: insônia, fadiga, dor de cabeça matinal e sintomas de humor, muitas vezes sem ronco evidente." },
+      { "q": "Higiene do sono resolve insônia crônica?", "a": "Nem sempre. Higiene do sono é base, mas insônia crônica frequentemente tem outros fatores — apneia, dor, disautonomia, medicações, ritmo circadiano — que precisam ser investigados e tratados especificamente." },
+      { "q": "O que levar para a consulta de sono?", "a": "Horários de dormir e acordar das últimas semanas, relato de quem dorme ao lado sobre ronco e pausas, lista de medicações e exames anteriores. Dados de smartwatch ou app de sono, se houver, também ajudam." }
+    ]
+  }
+}

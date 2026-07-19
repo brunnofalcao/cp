@@ -1,0 +1,182 @@
+{
+  "sam": {
+    "slug": "sam",
+    "condition": "Mast Cell Activation Syndrome",
+    "title": "Mast Cell Activation Syndrome (MCAS) — clinical investigation",
+    "metaDesc": "Reactions without proven allergy, symptoms across several systems at once? MCAS investigation with scientific criteria. Dr. Carine Petry, CRM-DF 15342, Brazil.",
+    "keywords": ["mast cell activation syndrome specialist", "MCAS doctor", "MCAS diagnosis", "tryptase test", "histamine intolerance physician"],
+    "kicker": "Clinical Investigation · MCAS",
+    "h1": "Reactions that aren't allergy. Normal tests. Real symptoms.",
+    "sub": "If your body reacts to foods, medications, heat or stress — and no allergy test explains it — Mast Cell Activation Syndrome belongs in the investigation.",
+    "trust": [
+      { "v": "CRM-DF 15342", "k": "Medical licence" },
+      { "v": "RQE 16243", "k": "Board certified" },
+      { "v": "1h+", "k": "Consultation length" },
+      { "v": "Brasília, Brazil", "k": "Practice" }
+    ],
+    "symptomsTitle": "Do you recognize this pattern?",
+    "symptomsLead": "The hallmark of MCAS is involvement of two or more body systems at the same time. In isolation, each symptom leads to a different specialist — and the investigation never advances.",
+    "symptoms": [
+      "Facial and neck flushing without apparent cause",
+      "Itching, hives or dermographism",
+      "Abdominal pain, diarrhea or refractory reflux",
+      "Intolerance to multiple foods, especially histamine-rich ones",
+      "Palpitations or tachycardia without cardiac cause",
+      "Blood pressure drops and near-fainting",
+      "Frequent headaches and migraines",
+      "Brain fog and anxiety during flares",
+      "Chronic nasal congestion or mild shortness of breath",
+      "Flares triggered by heat, exercise, alcohol or stress"
+    ],
+    "evidenceTitle": "What science establishes about diagnosis",
+    "evidenceLead": "MCAS is not diagnosed by exclusion or intuition. The literature defines objective criteria — and testing must be collected at the right moment.",
+    "evidence": [
+      { "t": "Criterion 1 — clinical picture", "d": "Typical, recurrent symptoms of mast cell mediator release involving two or more body systems." },
+      { "t": "Criterion 2 — laboratory evidence", "d": "Transient elevation of mediators during symptoms. Serum tryptase is the best studied; urinary metabolites of histamine, prostaglandin D2 and leukotriene E4 are also assessed." },
+      { "t": "Criterion 3 — therapeutic response", "d": "Clinical response to medications that block the action or production of these mediators." },
+      { "t": "The detail that changes everything", "d": "Outside a flare, tests usually come back normal. Collection during or shortly after an episode is a critical part of the investigation — and where most cases are lost." }
+    ],
+    "faq": [
+      { "q": "Does MCAS show up on allergy tests?", "a": "No. Conventional allergy tests investigate IgE-mediated reactions to specific allergens. In MCAS, mast cells release mediators inappropriately without that mechanism — which is why allergy tests usually come back negative while symptoms remain real." },
+      { "q": "How long does it take to diagnose MCAS?", "a": "It depends on collecting mediators at the right moment and correlating the full clinical picture. The first consultation defines hypotheses and a testing plan; confirming the diagnosis usually requires follow-up with results in hand." },
+      { "q": "Is MCAS related to Ehlers-Danlos and POTS?", "a": "Yes. The literature describes frequent overlap between MCAS, hypermobile Ehlers-Danlos Syndrome and dysautonomia/POTS. Investigating one of these conditions requires considering the others." },
+      { "q": "Do I need a referral?", "a": "No referral is needed. It helps to bring previous test results in chronological order and a record of symptoms and triggers." }
+    ]
+  },
+
+  "sed": {
+    "slug": "sed",
+    "condition": "Ehlers-Danlos Syndrome",
+    "title": "Ehlers-Danlos Syndrome (EDS) and hypermobility — clinical assessment",
+    "metaDesc": "Hypermobility with chronic pain, dislocations and fatigue? hEDS assessment using international criteria. Dr. Carine Petry, CRM-DF 15342, Brasília, Brazil.",
+    "keywords": ["ehlers-danlos specialist", "hypermobility doctor", "hEDS diagnosis", "Beighton score assessment", "chronic pain hypermobility"],
+    "kicker": "Clinical Investigation · EDS",
+    "h1": "Flexibility shouldn't hurt every day.",
+    "sub": "Hypermobility accompanied by chronic pain, dislocations and fatigue is not normal. The international average between first symptom and EDS diagnosis exceeds ten years.",
+    "trust": [
+      { "v": "CRM-DF 15342", "k": "Medical licence" },
+      { "v": "2017 criteria", "k": "International standard" },
+      { "v": "1h+", "k": "Consultation length" },
+      { "v": "Brasília, Brazil", "k": "Practice" }
+    ],
+    "symptomsTitle": "Signs that deserve assessment",
+    "symptomsLead": "Hypermobile EDS rarely presents as a single complaint. It is the whole set — joints, skin, fatigue, digestion and autonomic system — that draws the pattern.",
+    "symptoms": [
+      "Joints that move beyond the normal range",
+      "Chronic, diffuse musculoskeletal pain",
+      "Frequent dislocations or subluxations",
+      "Repeated sprains with minimal trauma",
+      "Soft, velvety skin or atypical scarring",
+      "Fatigue disproportionate to exertion",
+      "Dizziness on standing and palpitations",
+      "Reflux, constipation or gut dysmotility",
+      "Chronic pelvic pain or severe menstrual cramps",
+      "Non-restorative sleep"
+    ],
+    "evidenceTitle": "How the diagnosis is made",
+    "evidenceLead": "For the hypermobile subtype there is no blood or genetic test that confirms it. Diagnosis is clinical — which makes a specialized physical exam and detailed history irreplaceable.",
+    "evidence": [
+      { "t": "Beighton score", "d": "A standardized, internationally validated score to objectively measure joint hypermobility." },
+      { "t": "2017 systemic criteria", "d": "Assessment of skin features, dislocation history, chronic pain and other criteria defined in the international consensus." },
+      { "t": "Differential exclusion", "d": "Ruling out other hereditary connective tissue disorders, which requires specific knowledge of the spectrum." },
+      { "t": "Active search for comorbidities", "d": "Dysautonomia, mast cell activation and sleep disorders frequently coexist — and completely change case management." }
+    ],
+    "faq": [
+      { "q": "Is there a test to confirm hypermobile EDS?", "a": "Not for the hypermobile subtype (hEDS). Diagnosis is clinical, based on the Beighton score, the 2017 international systemic criteria and exclusion of other connective tissue conditions. Other EDS subtypes do have genetic markers." },
+      { "q": "Does being flexible mean having EDS?", "a": "No. Isolated, asymptomatic hypermobility is common in the population. The red flag is hypermobility accompanied by chronic pain, dislocations, fatigue, dysautonomia or multisystem symptoms." },
+      { "q": "What should I bring to the consultation?", "a": "A history of dislocations and sprains, photos or videos of hypermobility maneuvers you can perform, previous test results and a complete symptom list — including those that seem unrelated to each other." },
+      { "q": "Is there treatment for EDS?", "a": "EDS is a genetic condition without a cure, but with management. The goal is to control pain, protect joints, treat associated comorbidities and restore function — always with an individualized plan." }
+    ]
+  },
+
+  "covid-longa": {
+    "slug": "covid-longa",
+    "condition": "Long COVID",
+    "title": "Long COVID — investigating persistent fatigue and brain fog",
+    "metaDesc": "Fatigue, brain fog and exercise intolerance months after COVID-19? Multisystem Long COVID investigation. Dr. Carine Petry, CRM-DF 15342, Brasília, Brazil.",
+    "keywords": ["long covid doctor", "post-covid fatigue treatment", "post-covid syndrome specialist", "covid brain fog", "long covid investigation"],
+    "kicker": "Clinical Investigation · Long COVID",
+    "h1": "The infection is over. You never went back to who you were.",
+    "sub": "Fatigue that won't lift, brain fog, yesterday's effort sending today the bill. Long COVID is recognized by the WHO, has a pathophysiological basis under active investigation — and requires multisystem evaluation.",
+    "trust": [
+      { "v": "CRM-DF 15342", "k": "Medical licence" },
+      { "v": "Sleep Medicine", "k": "Board certified (RQE)" },
+      { "v": "1h+", "k": "Consultation length" },
+      { "v": "Brasília, Brazil", "k": "Practice" }
+    ],
+    "symptomsTitle": "The symptoms most described in the literature",
+    "symptomsLead": "The WHO defines Long COVID as the persistence or emergence of symptoms three months after infection, lasting at least two months, with no other diagnostic explanation.",
+    "symptoms": [
+      "Disproportionate, persistent fatigue",
+      "Post-exertional malaise — significant worsening after activity",
+      "Brain fog, memory and concentration lapses",
+      "Non-restorative sleep and sleep disturbances",
+      "Shortness of breath and exercise intolerance",
+      "Palpitations and dizziness on standing",
+      "Muscle and joint pain",
+      "Persistent changes in smell and taste",
+      "Allergy-like reactions that did not exist before",
+      "New or worsened digestive symptoms"
+    ],
+    "evidenceTitle": "What science is investigating as mechanisms",
+    "evidenceLead": "Long COVID is not a mystery without clues. Lines of evidence point to mechanisms that can coexist in the same patient — which is why evaluation must be integrated.",
+    "evidence": [
+      { "t": "Immune dysfunction and persistent inflammation", "d": "Low-grade inflammation that continues after the acute infection resolves." },
+      { "t": "Dysautonomia", "d": "Autonomic nervous system dysregulation, frequently as POTS — explaining tachycardia, dizziness and orthostatic intolerance." },
+      { "t": "Mast cell activation", "d": "Inflammatory mediators producing allergy-like, multisystem symptoms that emerged after infection." },
+      { "t": "Microvascular changes", "d": "Tissue perfusion changes under study as part of the explanation for fatigue and brain fog." },
+      { "t": "Why normal tests don't rule it out", "d": "A normal blood count, TSH and vitamin D do not exclude Long COVID. The definition is clinical and the investigation must be hypothesis-driven." }
+    ],
+    "faq": [
+      { "q": "Is Long COVID psychological?", "a": "No. Long COVID is recognized by the World Health Organization and has a pathophysiological basis under active investigation: immune dysfunction, persistent inflammation, dysautonomia and microvascular changes are among the studied mechanisms. Symptoms are real and measurable." },
+      { "q": "How long does Long COVID last?", "a": "The course varies considerably between patients. Some improve over months; others maintain symptoms for prolonged periods. Identifying and treating specific mechanisms — such as dysautonomia, mast cell activation or a sleep disorder — often changes the trajectory." },
+      { "q": "What is post-exertional malaise?", "a": "It is the significant worsening of symptoms after physical or mental activity, often delayed by hours or a day. It is one of the most important symptoms in the evaluation, because it directly changes management and contraindicates aggressive progressive exercise approaches." },
+      { "q": "What should I record before the consultation?", "a": "The date of infection and when each symptom appeared, what worsens and what relieves them, sleep and energy patterns through the day, and heart rate lying down and after 2, 5 and 10 minutes standing." }
+    ]
+  },
+
+  "medicina-do-sono": {
+    "slug": "medicina-do-sono",
+    "condition": "Sleep Medicine",
+    "title": "Sleep Medicine — investigating non-restorative sleep and apnea",
+    "metaDesc": "Sleeping eight hours and waking exhausted? Investigation of apnea, insomnia and non-restorative sleep with a Sleep Medicine specialist. Dr. Carine Petry, RQE 16243.",
+    "keywords": ["sleep medicine specialist", "non-restorative sleep", "sleep apnea specialist Brazil", "chronic insomnia treatment", "polysomnography indication"],
+    "kicker": "Clinical Investigation · Sleep Medicine",
+    "h1": "Sleeping eight hours and waking as if you hadn't slept.",
+    "sub": "Waking up tired every day is not a personality trait. It is a symptom — and sleep is one of the most neglected axes in the investigation of fatigue, chronic pain and brain fog.",
+    "trust": [
+      { "v": "RQE 16243", "k": "Sleep specialist" },
+      { "v": "CRM-DF 15342", "k": "Medical licence" },
+      { "v": "1h+", "k": "Consultation length" },
+      { "v": "Brasília, Brazil", "k": "Practice" }
+    ],
+    "symptomsTitle": "Signs your sleep is not restoring you",
+    "symptomsLead": "Restorative sleep depends on architecture: organized cycles continuous enough for the body to consolidate memory, regulate immunity and hormones, and perform cerebral metabolic clearance.",
+    "symptoms": [
+      "Waking unrefreshed despite adequate sleep time",
+      "Loud snoring or breathing pauses observed by others",
+      "Waking up gasping or with a choking sensation",
+      "Morning headache",
+      "Excessive daytime sleepiness",
+      "Difficulty with concentration and memory",
+      "Restless sleep with frequent position changes",
+      "Maintenance insomnia — waking at night unable to return to sleep",
+      "Restless legs when lying down",
+      "Irritability and reduced performance"
+    ],
+    "evidenceTitle": "Why sleep is structural in the investigation",
+    "evidenceLead": "Fragmented sleep amplifies pain, worsens dysautonomia, aggravates cognitive symptoms and undermines any treatment. Ignoring this axis is trying to fill a leaking bucket.",
+    "evidence": [
+      { "t": "Obstructive sleep apnea", "d": "Breathing pauses forcing micro-awakenings dozens or hundreds of times a night. In women it may present as insomnia, fatigue and morning headache, without prominent snoring." },
+      { "t": "Periodic limb movements and restless legs", "d": "Fragment sleep without the patient noticing the awakenings. Ferritin assessment is part of the investigation." },
+      { "t": "Chronic pain and sleep", "d": "The relationship runs both ways: pain fragments sleep, and fragmented sleep lowers the pain threshold." },
+      { "t": "Polysomnography", "d": "Records breathing, oxygenation, brain activity and movements through the night. Indicated when there is clinical suspicion — not as universal screening." }
+    ],
+    "faq": [
+      { "q": "When is polysomnography indicated?", "a": "When there is clinical suspicion of a sleep disorder: persistent non-restorative sleep, snoring with breathing pauses, excessive daytime sleepiness, or when a complex picture of fatigue, brain fog or chronic pain requires objective assessment of sleep quality." },
+      { "q": "Does sleep apnea only affect men who snore?", "a": "No. Apnea is underdiagnosed in women precisely because presentation is often different: insomnia, fatigue, morning headache and mood symptoms, frequently without obvious snoring." },
+      { "q": "Does sleep hygiene solve chronic insomnia?", "a": "Not always. Sleep hygiene is foundational, but chronic insomnia frequently involves other factors — apnea, pain, dysautonomia, medications, circadian rhythm — that must be specifically investigated and treated." },
+      { "q": "What should I bring to a sleep consultation?", "a": "Bedtime and wake times from recent weeks, a bed partner's report about snoring and pauses, a list of medications and previous test results. Smartwatch or sleep app data, if available, also helps." }
+    ]
+  }
+}
