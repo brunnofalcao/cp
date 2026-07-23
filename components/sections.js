@@ -142,12 +142,14 @@ export function DoctorProfile({ lang, dict }) {
           <Reveal className="c-5">
             <EditorialImage
               id="IMG-02"
+              src={SITE.photos.retrato}
+              objectPosition="center 22%"
               ratio="4 / 5"
               sizes="(max-width: 1024px) 100vw, 38vw"
               tag="Retrato editorial · perfil"
               brief="Fundo neutro, plano médio. O mesmo arquivo abre a página Sobre."
               px="1600 × 2000"
-              alt=""
+              alt="Dra. Carine Petry"
             />
           </Reveal>
           <Reveal className="c-6 start-7" delay={90}>
