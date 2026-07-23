@@ -691,8 +691,14 @@ section.flush { padding-block: 0; }
   .c-10 { grid-column: span 10; }
   .c-12 { grid-column: span 12; }
   .start-2 { grid-column-start: 2; }
+  .start-3 { grid-column-start: 3; }
+  .start-4 { grid-column-start: 4; }
+  .start-5 { grid-column-start: 5; }
+  .start-6 { grid-column-start: 6; }
   .start-7 { grid-column-start: 7; }
   .start-8 { grid-column-start: 8; }
+  .start-9 { grid-column-start: 9; }
+  .start-10 { grid-column-start: 10; }
 
   .hero-copy { padding-block: var(--s-5xl) var(--s-4xl); }
   .hero-media { min-height: 640px; align-self: stretch; }
