@@ -1,58 +1,56 @@
 import AppHeader from '../../../components/AppHeader';
 import AppFooter from '../../../components/AppFooter';
-import Breadcrumbs from '../../../components/Breadcrumbs';
-import BlogIndex from '../../../components/BlogIndex';
-import { StickyCta } from '../../../components/sections';
+import { MethodSteps, PatientJourney, FinalCta, StickyCta } from '../../../components/sections';
 import JsonLd, { breadcrumbSchema } from '../../../components/JsonLd';
+import Breadcrumbs from '../../../components/Breadcrumbs';
 import { getDictionary } from '../../../lib/dictionaries';
 import { altUrls } from '../../../lib/site';
-import { getAllPosts, getCategories } from '../../../lib/posts';
 
 export async function generateMetadata({ params }) {
   const lang = params.lang === 'en' ? 'en' : 'pt';
-  const alts = altUrls('/blog');
+  const alts = altUrls('/abordagem');
   const isPt = lang === 'pt';
   return {
-    title: isPt ? 'Conteúdo científico' : 'Scientific writing',
+    title: isPt ? 'Abordagem clínica' : 'Clinical approach',
     description: isPt
-      ? 'Textos sobre mecanismos, critérios diagnósticos e condições multissistêmicas, escritos para leitura não especializada sem simplificações que distorcem.'
-      : 'Texts on mechanisms, diagnostic criteria and multisystem conditions, written for non-specialist reading without distorting simplifications.',
+      ? 'Como a investigação é conduzida: escuta e linha do tempo, integração de sistemas, hipóteses e exames direcionados, plano e encaminhamentos.'
+      : 'How the investigation is conducted: listening and clinical timeline, system integration, hypotheses and targeted testing, plan and referrals.',
     alternates: { canonical: isPt ? alts.pt : alts.en, languages: { 'pt-BR': alts.pt, en: alts.en } }
   };
 }
 
-export default function Blog({ params }) {
+export default function Abordagem({ params }) {
   const lang = params.lang === 'en' ? 'en' : 'pt';
   const dict = getDictionary(lang);
-  const posts = getAllPosts(lang);
-  const categories = getCategories(lang);
   const crumbs = [
     { name: dict.nav.home, path: '/' },
-    { name: dict.nav.content, path: '/blog' }
+    { name: dict.nav.approach, path: '/abordagem' }
   ];
 
   return (
     <>
-      <AppHeader lang={lang} dict={dict} currentPath="/blog" />
+      <AppHeader lang={lang} dict={dict} currentPath="/abordagem" />
       <JsonLd data={breadcrumbSchema(crumbs, lang)} />
 
       <main id="main">
         <section className="tight">
           <div className="wrap">
             <Breadcrumbs lang={lang} items={crumbs} />
-            <div className="grid" style={{ marginTop: 'var(--s-xl)', rowGap: 'var(--s-md)' }}>
+            <div className="grid" style={{ marginTop: 'var(--s-xl)' }}>
               <div className="c-7">
-                <span className="kicker">{dict.articles.kicker}</span>
-                <h1 className="d-l">{dict.articles.title}</h1>
+                <span className="kicker">{dict.method.kicker}</span>
+                <h1 className="d-l">{dict.method.title}</h1>
               </div>
               <div className="c-4 start-9" style={{ alignSelf: 'end' }}>
-                <p className="lead">{dict.articles.lead}</p>
+                <p className="lead">{dict.method.lead}</p>
               </div>
             </div>
           </div>
         </section>
 
-        <BlogIndex lang={lang} dict={dict} posts={posts} categories={categories} />
+        <MethodSteps dict={dict} titleId="approach-method" />
+        <PatientJourney dict={dict} />
+        <FinalCta lang={lang} dict={dict} />
       </main>
 
       <StickyCta lang={lang} dict={dict} />

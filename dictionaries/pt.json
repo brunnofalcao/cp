@@ -1,91 +1,263 @@
 {
-  "nav": { "home": "Início", "about": "Sobre", "areas": "Áreas de Atuação", "blog": "Blog", "contact": "Contato" },
+  "nav": {
+    "home": "Início",
+    "approach": "Abordagem",
+    "areas": "Áreas de atuação",
+    "about": "Sobre",
+    "content": "Conteúdo",
+    "contact": "Contato"
+  },
+  "header": {
+    "role": "Medicina · Investigação clínica",
+    "cta": "Solicitar informações"
+  },
+  "a11y": {
+    "skip": "Ir para o conteúdo",
+    "mainNav": "Navegação principal",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  },
+
   "hero": {
-    "kicker": "Investigação Clínica de Alta Complexidade",
-    "title": "Investigação clínica para casos que outros médicos não resolveram",
-    "subtitle": "Referência em Síndrome de Ativação de Mastócitos (SAM), Síndrome de Ehlers-Danlos (SED) e Covid Longa. Quando o diagnóstico exige mais do que 15 minutos.",
-    "cta": "Agendar consulta",
-    "cta2": "Conhecer as áreas de atuação"
+    "kicker": "Investigação clínica de alta complexidade",
+    "title": "Clareza clínica para quadros que não cabem em respostas simples.",
+    "lead": "Uma abordagem médica aprofundada para compreender sintomas que aparecem em vários sistemas ao mesmo tempo, integrar evidências e construir um direcionamento individualizado.",
+    "ctaPrimary": "Solicitar informações sobre a consulta",
+    "ctaSecondary": "Conhecer a abordagem",
+    "credentials": "Carine Petry · CRM-DF 15342 · RQE 16243 / 12865 · Especialista em Medicina do Sono"
   },
-  "validation": {
-    "title": "Você não é \"frescura\"",
-    "body": "Quantos médicos você já consultou? Quantas vezes ouviu que \"seus exames estão normais\"? Seus sintomas são reais. Não é ansiedade, não é \"coisa da sua cabeça\". Aqui, você será ouvido — e sairá com direcionamento claro.",
-    "quote": "Profundidade antes de resposta."
+
+  "credrail": {
+    "items": [
+      { "k": "Registro", "v": "CRM-DF 15342" },
+      { "k": "Especialidade registrada", "v": "Medicina do Sono · RQE 16243" },
+      { "k": "Eixos de investigação", "v": "SAM · SED · Covid Longa · Sono" },
+      { "k": "Consultório", "v": "Brasília, Distrito Federal" }
+    ]
   },
+
+  "manifesto": {
+    "kicker": "Princípio clínico",
+    "title": "Seus sintomas merecem ser compreendidos em conjunto.",
+    "body": [
+      "Se você já ouviu que \"seus exames estão normais\" enquanto o corpo insistia que algo não estava certo, esse texto é para você. Quadros complexos raramente se explicam por um único sistema. Sintomas de pele, digestão, circulação, sono e cognição podem compartilhar um mesmo mecanismo e, isolados em especialidades diferentes, esse mecanismo permanece invisível.",
+      "A leitura integrada da história clínica é o que permite reconhecer esse padrão. É um trabalho de escuta, correlação e método, conduzido com o tempo que a complexidade exige. Investigar de forma integrada não é pedir mais exames: é interpretar o conjunto."
+    ],
+    "quote": "Profundidade antes de resposta.",
+    "quoteSource": "Princípio de conduta clínica"
+  },
+
+  "profile": {
+    "kicker": "A médica",
+    "title": "Uma prática dedicada a quadros multissistêmicos e subdiagnosticados.",
+    "body": [
+      "Carine Petry é médica, especialista em Medicina do Sono, com atuação dedicada à investigação clínica de condições raras e frequentemente subdiagnosticadas: Síndrome de Ativação de Mastócitos (SAM), Síndrome de Ehlers-Danlos (SED) e as repercussões persistentes da Covid-19.",
+      "A prática se organiza em torno de três compromissos: anamnese detalhada o bastante para reconstruir a trajetória do sintoma, correlação entre sistemas antes de qualquer conclusão, e transparência sobre os limites do que se pode afirmar. Nada de promessa que a medicina não pode sustentar."
+    ],
+    "philosophyLabel": "Filosofia clínica",
+    "philosophy": "Investigar é sustentar a dúvida pelo tempo necessário para que a evidência apareça, e reconhecer, quando for o caso, que o direcionamento correto passa por outra especialidade.",
+    "link": "Conhecer a trajetória completa"
+  },
+
   "method": {
-    "title": "Medicina investigativa",
-    "body": "Medicina investigativa não é apenas pedir exames. É correlacionar sintomas aparentemente desconexos, reconhecer padrões que outros não veem e ter coragem para considerar diagnósticos raros.",
-    "items": [
-      { "t": "Anamnese detalhada", "d": "Consultas longas, com escuta ativa e correlação de sintomas multissistêmicos." },
-      { "t": "Rigor investigativo", "d": "Diagnósticos baseados em evidência científica sólida e atualização contínua em condições raras." },
-      { "t": "Orientação de trajetória", "d": "Direcionamento claro — e a disposição para dizer \"não é minha área, mas sei quem pode ajudar\"." }
+    "kicker": "Abordagem",
+    "title": "Como a investigação é conduzida.",
+    "lead": "Um percurso definido, com etapas que se sustentam umas nas outras. Cada consulta começa onde a anterior terminou.",
+    "steps": [
+      { "t": "Escuta e linha do tempo clínica", "d": "Reconstrução da trajetória: quando cada sintoma surgiu, o que o precedeu, como evoluiu e o que já foi investigado. A ordem dos acontecimentos costuma indicar o mecanismo." },
+      { "t": "Integração de sintomas e sistemas", "d": "Análise conjunta de pele, trato digestivo, sistema cardiovascular, sono e cognição. Sintomas tratados como fragmentos separados raramente revelam o que têm em comum." },
+      { "t": "Hipóteses e exames direcionados", "d": "Exames escolhidos a partir de hipóteses definidas, com atenção ao momento adequado de coleta. Em algumas condições, o resultado depende de quando a amostra é obtida." },
+      { "t": "Plano, acompanhamento e encaminhamentos", "d": "Um direcionamento fundamentado, com acompanhamento da resposta e, quando o quadro exigir outra especialidade, o encaminhamento apropriado." }
     ]
   },
+
   "areasHome": {
-    "title": "Áreas de atuação",
+    "kicker": "Áreas de atuação",
+    "title": "Condições investigadas.",
+    "lead": "Quatro eixos de investigação que frequentemente se sobrepõem no mesmo paciente e que, por isso, são avaliados em conjunto.",
+    "signalsLabel": "Situações investigadas",
+    "cta": "Entender a investigação",
     "items": [
-      { "t": "Síndrome de Ativação de Mastócitos (SAM)", "d": "Sintomas multissistêmicos, alergias inexplicadas, reações a alimentos e medicamentos.", "slug": "sam" },
-      { "t": "Síndrome de Ehlers-Danlos (SED)", "d": "Hipermobilidade, dor crônica, luxações e comorbidades associadas.", "slug": "sed" },
-      { "t": "Covid Longa", "d": "Fadiga persistente, névoa mental e sintomas que permanecem após a infecção.", "slug": "covid-longa" },
-      { "t": "Medicina do Sono", "d": "Investigação de sono não reparador, apneia, insônia e sonolência excessiva.", "slug": "medicina-do-sono" }
+      {
+        "slug": "sam",
+        "t": "Síndrome de Ativação de Mastócitos",
+        "d": "Reações que envolvem, ao mesmo tempo, pele, trato digestivo, sistema cardiovascular e nervoso, sem que testes de alergia expliquem o quadro.",
+        "signals": "Rubor · reações a alimentos e medicamentos · sintomas desencadeados por calor, esforço ou estresse"
+      },
+      {
+        "slug": "sed",
+        "t": "Síndrome de Ehlers-Danlos",
+        "d": "Alterações do tecido conjuntivo com repercussão articular, cutânea e sistêmica, avaliadas pelos critérios internacionais vigentes.",
+        "signals": "Hipermobilidade articular · dor crônica · luxações recorrentes · fadiga"
+      },
+      {
+        "slug": "covid-longa",
+        "t": "Covid Longa",
+        "d": "Sintomas que persistem meses após a infecção, com mecanismos multissistêmicos em investigação ativa pela literatura científica.",
+        "signals": "Fadiga persistente · mal-estar pós-esforço · alterações cognitivas · sono não reparador"
+      },
+      {
+        "slug": "medicina-do-sono",
+        "t": "Medicina do Sono",
+        "d": "Avaliação da arquitetura e da qualidade do sono como eixo estrutural, muitas vezes o elemento que reorganiza a compreensão de um quadro complexo.",
+        "signals": "Sono não reparador · apneia · insônia crônica · sonolência diurna excessiva"
+      }
     ]
   },
-  "blog": {
-    "title": "Blog — Ciência traduzida com clareza",
-    "subtitle": "Conteúdo científico explicado para você, sem simplificações que distorcem.",
-    "readMore": "Ler artigo",
-    "all": "Ver todos os artigos",
-    "faqTitle": "Perguntas frequentes",
-    "backToBlog": "← Voltar ao blog",
-    "disclaimer": "Este conteúdo tem caráter informativo e não substitui consulta médica. Procure sempre avaliação individualizada."
+
+  "authority": {
+    "kicker": "Fundamentação",
+    "title": "Rigor demonstrado, não declarado.",
+    "lead": "Formação, produção e participação verificáveis. Nada nesta seção é publicado sem comprovação documental.",
+    "pending": "CONTENT_REQUIRED: publicações, participações em congressos, aulas e vínculos associativos aguardando envio de comprovação. Ver docs/CONTENT_REQUIRED.md.",
+    "items": [
+      { "label": "Registro profissional", "d": "CRM-DF 15342. Registro de Qualificação de Especialista 16243 e 12865." },
+      { "label": "Especialidade registrada", "d": "Medicina do Sono, com atuação em investigação clínica de quadros multissistêmicos." },
+      { "label": "Base de conduta", "d": "Critérios diagnósticos internacionais vigentes para as condições investigadas, com revisão contínua da literatura." }
+    ]
   },
+
+  "journey": {
+    "kicker": "A consulta",
+    "title": "O que esperar do primeiro contato.",
+    "items": [
+      { "t": "Para quem é indicada", "d": "Pessoas com sintomas persistentes e multissistêmicos que já passaram por avaliações sem uma explicação integrada do quadro." },
+      { "t": "Como se preparar", "d": "Reunir exames anteriores em ordem cronológica, incluindo os que vieram sem alteração, e registrar a lista completa de sintomas." },
+      { "t": "O que levar", "d": "Relação de medicamentos e suplementos em uso com as doses, histórico de reações e uma linha do tempo dos sintomas." },
+      { "t": "Como funciona o primeiro contato", "d": "A solicitação é recebida pela equipe, que orienta sobre a investigação e as possibilidades de agendamento." }
+    ]
+  },
+
+  "clinic": {
+    "kicker": "O consultório",
+    "title": "Onde a consulta acontece.",
+    "lead": "Centro Médico Lucio Costa, Asa Sul, Brasília. Informações de acessibilidade e estacionamento na página de contato."
+  },
+
+  "articles": {
+    "kicker": "Conteúdo científico",
+    "title": "Ciência traduzida com precisão.",
+    "lead": "Textos que explicam mecanismos e critérios sem simplificações que distorcem.",
+    "recentTitle": "O que a evidência mostra, atualizado com frequência",
+    "recentLead": "Resumos claros sobre quadros multissistêmicos, escritos para quem convive com eles e para quem os investiga.",
+    "all": "Ver todos os artigos",
+    "readTime": "min de leitura",
+    "readMore": "Ler",
+    "backToBlog": "Voltar ao conteúdo",
+    "faqTitle": "Perguntas frequentes",
+    "related": "Leituras relacionadas",
+    "referencesTitle": "Referências",
+    "authorLabel": "Autoria",
+    "updatedLabel": "Atualizado em",
+    "disclaimer": "Conteúdo de caráter informativo. Não substitui avaliação médica individualizada nem estabelece diagnóstico."
+  },
+
+  "faqHome": {
+    "kicker": "Dúvidas frequentes",
+    "title": "Antes de solicitar a consulta.",
+    "items": [
+      { "q": "Quando faz sentido procurar uma avaliação como esta?", "a": "Quando há sintomas persistentes envolvendo mais de um sistema do corpo, sem uma explicação que integre o conjunto, especialmente após avaliações anteriores que não chegaram a um direcionamento." },
+      { "q": "Como devo organizar meus exames?", "a": "Em ordem cronológica, com a data visível, incluindo os resultados completos e não apenas o laudo final. Exames sem alteração também são informação clínica relevante." },
+      { "q": "Pacientes de outros estados são atendidos?", "a": "Sim. O consultório fica em Brasília e recebe pacientes de outras localidades. A equipe orienta sobre a organização da agenda no primeiro contato." },
+      { "q": "E se o meu caso for de outra especialidade?", "a": "O encaminhamento faz parte da conduta. Reconhecer que um quadro pertence a outra área é parte da responsabilidade clínica, não uma falha da investigação." },
+      { "q": "O que acontece depois que envio a solicitação?", "a": "A equipe entra em contato para compreender o caso e orientar sobre a investigação e as possibilidades de agendamento." }
+    ]
+  },
+
+  "finalCta": {
+    "title": "Se você reconhece a sua história aqui, o primeiro passo é uma conversa.",
+    "lead": "Envie suas informações e a equipe entrará em contato para orientar sobre a investigação e o agendamento.",
+    "cta": "Solicitar informações sobre a consulta",
+    "note": "Resposta da equipe em dias úteis."
+  },
+
+  "newsletter": {
+    "kicker": "Boletim",
+    "title": "Ciência traduzida",
+    "subtitle": "Um resumo, a cada semana, do que a ciência mostra sobre quadros multissistêmicos. Linguagem clara, com base em evidência.",
+    "name": "Nome",
+    "namePlaceholder": "Como quer ser chamado",
+    "email": "E-mail",
+    "emailPlaceholder": "Seu melhor e-mail",
+    "profession": "Você é",
+    "select": "Selecione",
+    "professionOptions": [
+      { "value": "medico", "label": "Médico(a)" },
+      { "value": "nutricionista", "label": "Nutricionista" },
+      { "value": "profissional_saude", "label": "Profissional da saúde" },
+      { "value": "nao_profissional", "label": "Não sou profissional da saúde" }
+    ],
+    "submit": "Assinar",
+    "sending": "Enviando",
+    "success": "Assinatura confirmada. Você receberá o próximo boletim.",
+    "error": "Não foi possível concluir a assinatura. Tente novamente.",
+    "consent": "Ao assinar, você concorda em receber e-mails de Carine Petry. É possível cancelar quando quiser.",
+    "errName": "Informe seu nome.",
+    "errEmail": "Informe um e-mail válido.",
+    "errProfession": "Selecione uma opção."
+  },
+
   "lp": {
     "formAnchor": "Solicitar avaliação",
-    "symptomsKicker": "Reconhecimento",
-    "symptomsNote": "Nenhum sintoma isolado fecha diagnóstico. É o conjunto que desenha o padrão — e é esse conjunto que a investigação analisa.",
-    "evidenceKicker": "Base científica",
-    "journeyKicker": "Como funciona",
-    "journeyTitle": "O caminho da investigação",
-    "journeySteps": [
-      { "t": "Anamnese aprofundada", "d": "Consulta longa que cobre todos os sistemas do corpo, com linha do tempo dos sintomas e correlação clínica. Profundidade antes de resposta." },
-      { "t": "Exame físico dirigido", "d": "Avaliação específica conforme a hipótese: hipermobilidade, sinais cutâneos, aferição ortostática padronizada." },
-      { "t": "Exames por hipótese", "d": "O exame certo, colhido do jeito certo, no momento certo — não uma bateria genérica que volta normal." },
-      { "t": "Plano e direcionamento", "d": "Hipóteses claras, conduta fundamentada em evidência e, quando o caso exigir outra especialidade, o encaminhamento correto." }
-    ],
-    "formKicker": "Primeiro passo",
-    "formTitle": "Solicite uma avaliação do seu caso",
-    "formLead": "Preencha os dados abaixo e a equipe entrará em contato para orientar sobre a investigação e o agendamento. Quanto mais contexto você trouxer, melhor a primeira consulta rende.",
-    "medicalDisclaimer": "Este formulário não realiza diagnóstico nem substitui consulta médica. As informações enviadas são usadas exclusivamente para contato e orientação sobre agendamento, conforme a Lei Geral de Proteção de Dados."
+    "symptomsKicker": "Sinais e sintomas",
+    "symptomsNote": "Esta relação tem finalidade informativa e não constitui instrumento de autodiagnóstico. A presença de sinais isolados não caracteriza a condição. A avaliação médica considera o conjunto, a evolução e os critérios diagnósticos aplicáveis.",
+    "evidenceKicker": "Critérios e evidência",
+    "journeyKicker": "A investigação",
+    "journeyTitle": "Como a avaliação é conduzida",
+    "limitsKicker": "Critérios e limitações",
+    "formKicker": "Primeiro contato",
+    "formTitle": "Solicite informações sobre a consulta",
+    "formLead": "Descreva brevemente o seu caso. A equipe entra em contato para orientar sobre a investigação e as possibilidades de agendamento.",
+    "medicalDisclaimer": "Este formulário não realiza triagem clínica, não estabelece diagnóstico e não substitui consulta médica. As informações são utilizadas exclusivamente para contato e orientação de agendamento, conforme a Lei Geral de Proteção de Dados."
   },
+
   "form": {
-    "title": "Solicitar avaliação",
-    "subtitle": "Resposta em até 2 dias úteis.",
+    "title": "Solicitar informações",
+    "subtitle": "Campos marcados são obrigatórios.",
     "name": "Nome completo",
     "email": "E-mail",
     "phone": "WhatsApp",
-    "phoneHint": "Com DDD. Opcional, mas acelera o contato.",
-    "duration": "Há quanto tempo convive com os sintomas?",
+    "phoneHint": "Com DDD. Opcional.",
+    "duration": "Há quanto tempo convive com os sintomas",
+    "context": "Contexto do caso",
+    "contextHint": "Opcional. Um resumo breve ajuda a equipe a orientar melhor.",
     "select": "Selecione",
     "durationOptions": ["Menos de 6 meses", "6 meses a 2 anos", "2 a 5 anos", "Mais de 5 anos"],
-    "consent": "Autorizo o contato e o tratamento dos meus dados para fins de agendamento, conforme a LGPD.",
+    "consent": "Autorizo o contato e o tratamento dos meus dados para orientação e agendamento, nos termos da LGPD.",
     "submit": "Enviar solicitação",
-    "sending": "Enviando…",
+    "sending": "Enviando",
     "success": "Solicitação recebida.",
-    "successBody": "A equipe entrará em contato em até 2 dias úteis. Se preferir, você também pode falar diretamente pelo WhatsApp.",
-    "error": "Não foi possível enviar agora. Tente novamente ou fale pelo WhatsApp.",
+    "successBody": "A equipe entrará em contato pelos dados informados. Se preferir, o WhatsApp também está disponível.",
+    "error": "Não foi possível enviar a solicitação. Tente novamente ou utilize o WhatsApp.",
     "errName": "Informe seu nome completo.",
     "errEmail": "Informe um e-mail válido.",
     "errConsent": "É necessário autorizar o contato para prosseguir."
   },
+
   "contact": {
-    "title": "Contato e agendamento",
+    "kicker": "Contato",
+    "title": "O primeiro contato.",
+    "lead": "A solicitação é recebida pela equipe, que retorna para compreender o caso e orientar sobre a investigação e o agendamento.",
     "phone": "Telefone",
     "whatsapp": "WhatsApp",
+    "whatsappNote": "Alternativa ao formulário, para quem prefere conversar diretamente.",
     "addressTitle": "Endereço",
+    "logisticsTitle": "Como chegar",
+    "logistics": "CONTENT_REQUIRED: orientações de acesso, acessibilidade física, estacionamento e horários de funcionamento aguardando confirmação.",
     "cta": "Falar no WhatsApp"
   },
+
   "footer": {
-    "rights": "Todos os direitos reservados.",
-    "credentials": "Médica · CRM-DF 15342 · RQE 16243 / 12865 · Especialista em Medicina do Sono"
+    "tagline": "Investigação clínica de alta complexidade para quadros multissistêmicos. Escuta, método e evidência, no tempo que a complexidade exige.",
+    "credentials": "Médica · CRM-DF 15342 · RQE 16243 / 12865 · Especialista em Medicina do Sono",
+    "socialLabel": "Redes sociais",
+    "clinicTitle": "Consultório",
+    "navTitle": "Navegação",
+    "contactTitle": "Contato",
+    "addressTitle": "Endereço",
+    "medicalNotice": "As informações publicadas neste site têm caráter informativo e educacional. Não substituem consulta, diagnóstico ou tratamento médico individualizado.",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "rights": "Todos os direitos reservados."
   }
 }

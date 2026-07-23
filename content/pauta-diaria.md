@@ -1,17 +1,22 @@
-# Banco de pautas — publicação diária
+# Banco de pautas, publicação diária
 
 Temas alinhados às palavras-chave de maior atuação da Dra. Carine Petry.
 Marque `[x]` quando publicado. O script de publicação diária consome a primeira pauta não marcada.
+Cada pauta indica o formato: **[E]** explicativo (§4A do modelo de fala) ou **[M]** manejo/protocolo (§4B).
 
 ## SAM / Mastócitos
-- [ ] Dermografismo: por que a pele "escreve" quando arranhada
-- [ ] Triptase: o que o exame mostra (e o que ele não mostra)
-- [ ] Anafilaxia idiopática: quando a causa é mastocitária
-- [ ] Estabilizadores de mastócitos: como funcionam
-- [ ] Gatilhos de crise: calor, estresse, exercício e ciclo hormonal
-- [ ] SAM em crianças e adolescentes: sinais frequentemente perdidos
-- [ ] Reações a anestésicos e contrastes em pacientes com SAM
-- [ ] Enxaqueca e mastócitos: a conexão neuroinflamatória
+- [ ] [E] Dermografismo: por que a pele "escreve" quando arranhada
+- [ ] [E] Triptase: o que o exame mostra (e o que ele não mostra)
+- [ ] [E] Anafilaxia idiopática: quando a causa é mastocitária
+- [ ] [E] Estabilizadores de mastócitos: como funcionam
+- [ ] [M] Gatilhos de crise: calor, estresse, exercício e ciclo hormonal
+- [ ] [E] SAM em crianças e adolescentes: sinais frequentemente perdidos
+- [ ] [M] Reações a anestésicos e contrastes em pacientes com SAM
+- [ ] [E] Enxaqueca e mastócitos: a conexão neuroinflamatória
+- [ ] [M] Como montar um diário alimentar e de sintomas
+- [ ] [M] Anticoncepção e SAM: opções, cuidados e decisão compartilhada
+- [ ] [M] Preparo para cirurgias e procedimentos em pacientes com SAM
+- [ ] [M] Alimentos ricos em histamina: o que a ciência sustenta (e o que não)
 
 ## SED / Hipermobilidade
 - [ ] Escala de Beighton explicada passo a passo

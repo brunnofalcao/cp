@@ -1,6 +1,6 @@
-import { LANGS, getDictionary } from '../../lib/dictionaries';
+import { LANGS } from '../../lib/dictionaries';
 import { SITE, altUrls } from '../../lib/site';
-import JsonLd, { physicianSchema } from '../../components/JsonLd';
+import JsonLd, { physicianSchema, websiteSchema } from '../../components/JsonLd';
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
@@ -8,19 +8,21 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const lang = params.lang;
-  const alts = altUrls('/');
   const isPt = lang !== 'en';
+  const alts = altUrls('/');
+
+  const title = isPt
+    ? 'Carine Petry | Investigação clínica de alta complexidade'
+    : 'Carine Petry | High-complexity clinical investigation';
+  const description = isPt
+    ? 'Abordagem médica aprofundada para sintomas multissistêmicos. Investigação clínica em Síndrome de Ativação de Mastócitos, Ehlers-Danlos, Covid Longa e Medicina do Sono. Brasília-DF.'
+    : 'An in-depth medical approach to multisystem symptoms. Clinical investigation in Mast Cell Activation Syndrome, Ehlers-Danlos, Long COVID and Sleep Medicine. Brasília, Brazil.';
+
   return {
     metadataBase: new URL(SITE.url),
-    title: {
-      default: isPt
-        ? 'Dra. Carine Petry | Investigação Clínica de Alta Complexidade — SAM, SED e Covid Longa'
-        : 'Dr. Carine Petry | High-Complexity Clinical Investigation — MCAS, EDS and Long COVID',
-      template: isPt ? '%s | Dra. Carine Petry' : '%s | Dr. Carine Petry'
-    },
-    description: isPt
-      ? 'Médica referência em Síndrome de Ativação de Mastócitos (SAM), Síndrome de Ehlers-Danlos (SED) e Covid Longa. Investigação clínica para casos que outros médicos não resolveram. Brasília-DF.'
-      : 'Physician and national reference in Mast Cell Activation Syndrome (MCAS), Ehlers-Danlos Syndrome (EDS) and Long COVID. Clinical investigation for unresolved complex cases. Brasília, Brazil.',
+    title: { default: title, template: '%s | Carine Petry' },
+    description,
+    authors: [{ name: 'Carine Petry' }],
     alternates: {
       canonical: isPt ? alts.pt : alts.en,
       languages: { 'pt-BR': alts.pt, en: alts.en, 'x-default': alts.pt }
@@ -28,9 +30,34 @@ export async function generateMetadata({ params }) {
     openGraph: {
       type: 'website',
       locale: isPt ? 'pt_BR' : 'en_US',
-      siteName: 'Dra. Carine Petry'
+      siteName: 'Carine Petry',
+      title,
+      description,
+      url: isPt ? alts.pt : alts.en,
+      images: [{
+        url: '/og-default.jpg',
+        width: 1200,
+        height: 630,
+        alt: isPt
+          ? 'Carine Petry, médica especialista em investigação clínica de alta complexidade'
+          : 'Carine Petry, physician specialized in high-complexity clinical investigation'
+      }]
     },
-    robots: { index: true, follow: true }
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/og-default.jpg']
+    },
+    icons: {
+      icon: [{ url: SITE.logo.icone }, { url: '/favicon.ico' }],
+      apple: SITE.logo.icone
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 }
+    }
   };
 }
 
@@ -39,6 +66,7 @@ export default function LangLayout({ children, params }) {
   return (
     <div lang={lang === 'en' ? 'en' : 'pt-BR'}>
       <JsonLd data={physicianSchema(lang)} />
+      <JsonLd data={websiteSchema(lang)} />
       {children}
     </div>
   );

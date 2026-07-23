@@ -1,0 +1,36 @@
+{
+  "metaTitle": "About",
+  "metaDesc": "Carine Petry, physician (CRM-DF 15342) and Sleep Medicine specialist. A practice dedicated to the clinical investigation of multisystem presentations in Brasília, Brazil.",
+  "kicker": "About",
+  "h1": "A practice built on method, listening and clinical responsibility.",
+  "lead": "Carine Petry is a physician and Sleep Medicine specialist whose work is dedicated to investigating multisystem presentations and frequently underdiagnosed conditions.",
+
+  "bioTitle": "Background",
+  "bio": [
+    "Carine Petry's clinical practice is organized around a recurring observation: presentations involving several body systems rarely find an explanation when each symptom is assessed separately. Skin, digestive tract, cardiovascular system, sleep and cognition may share one underlying mechanism — and it is the integrated reading that makes that mechanism visible.",
+    "A Sleep Medicine specialist, she dedicates her practice to investigating conditions such as Mast Cell Activation Syndrome, Ehlers-Danlos Syndrome and the persistent effects of COVID-19. These conditions share three characteristics: multisystem presentation, diagnostic criteria requiring careful clinical correlation, and a frequent history of diagnostic delay.",
+    "The work combines an in-depth clinical history, targeted physical examination and tests chosen from defined hypotheses — with particular attention to the correct moment of collection, which in some conditions determines the result. When the investigation points to another field, referral is part of clinical conduct, not an interruption of it."
+  ],
+
+  "formationKicker": "Training and credentials",
+  "formationTitle": "Verifiable professional registration.",
+  "formationNote": "Only information with documentary evidence is published in this section.",
+  "formation": [
+    { "when": "Licence", "what": "CRM-DF 15342", "where": "Regional Council of Medicine, Federal District, Brazil" },
+    { "when": "Specialty", "what": "Sleep Medicine", "where": "RQE 16243" },
+    { "when": "Qualification", "what": "Specialist Qualification Registry", "where": "RQE 12865" }
+  ],
+  "formationPending": "CONTENT_REQUIRED — medical degree, residency, postgraduate training, specialist titles, certifications and institutional affiliations, with institution and year. See docs/CONTENT_REQUIRED.md.",
+
+  "principlesKicker": "Principles",
+  "principlesTitle": "What guides the practice.",
+  "principles": [
+    { "t": "Depth before answers", "d": "The consultation takes the time complexity requires. Reconstructing a symptom trajectory does not fit into a brief appointment." },
+    { "t": "Correlation before conclusion", "d": "Symptoms are analyzed together, across systems, before any hypothesis is considered established." },
+    { "t": "Transparency about limits", "d": "What the evidence supports is distinguished from what remains uncertain. A hypothesis is not presented as a diagnosis." },
+    { "t": "Referral as conduct", "d": "Recognizing that a presentation belongs to another specialty is part of clinical responsibility." },
+    { "t": "Validation without promise", "d": "Persistent symptoms are taken seriously and investigated with method, without guaranteeing outcomes medicine cannot offer." }
+  ],
+
+  "contextLabel": "Contextual images of clinical work"
+}

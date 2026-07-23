@@ -1,91 +1,263 @@
 {
-  "nav": { "home": "Home", "about": "About", "areas": "Areas of Practice", "blog": "Blog", "contact": "Contact" },
+  "nav": {
+    "home": "Home",
+    "approach": "Approach",
+    "areas": "Areas of practice",
+    "about": "About",
+    "content": "Writing",
+    "contact": "Contact"
+  },
+  "header": {
+    "role": "Medicine · Clinical investigation",
+    "cta": "Request information"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "mainNav": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+
   "hero": {
-    "kicker": "High-Complexity Clinical Investigation",
-    "title": "Clinical investigation for cases other physicians could not solve",
-    "subtitle": "A reference in Mast Cell Activation Syndrome (MCAS), Ehlers-Danlos Syndrome (EDS) and Long COVID. For when a diagnosis takes more than 15 minutes.",
-    "cta": "Book an appointment",
-    "cta2": "Explore areas of practice"
+    "kicker": "High-complexity clinical investigation",
+    "title": "Clinical clarity for presentations that resist simple answers.",
+    "lead": "An in-depth medical approach to understanding symptoms that appear across several systems at once, integrating evidence and building individualized direction.",
+    "ctaPrimary": "Request information about the consultation",
+    "ctaSecondary": "See the approach",
+    "credentials": "Carine Petry · CRM-DF 15342 · RQE 16243 / 12865 · Sleep Medicine specialist"
   },
-  "validation": {
-    "title": "It is not \"all in your head\"",
-    "body": "How many doctors have you seen? How many times have you heard that \"your tests are normal\"? Your symptoms are real. It is not anxiety, and it is not imaginary. Here, you will be heard — and you will leave with clear direction.",
-    "quote": "Depth before answers."
+
+  "credrail": {
+    "items": [
+      { "k": "Licence", "v": "CRM-DF 15342 (Brazil)" },
+      { "k": "Registered specialty", "v": "Sleep Medicine · RQE 16243" },
+      { "k": "Areas of investigation", "v": "MCAS · EDS · Long COVID · Sleep" },
+      { "k": "Practice", "v": "Brasília, Federal District" }
+    ]
   },
+
+  "manifesto": {
+    "kicker": "Clinical principle",
+    "title": "Your symptoms deserve to be understood together.",
+    "body": [
+      "If you have been told that \"your tests are normal\" while your body insisted something was wrong, this is for you. Complex presentations are rarely explained by a single system. Symptoms of the skin, digestion, circulation, sleep and cognition may share one underlying mechanism and, split across separate specialties, that mechanism stays invisible.",
+      "Reading the clinical history as a whole is what makes the pattern recognizable. It is work of listening, correlation and method, carried out with the time complexity requires. Investigating in an integrated way is not ordering more tests: it is interpreting the whole."
+    ],
+    "quote": "Depth before answers.",
+    "quoteSource": "Principle of clinical conduct"
+  },
+
+  "profile": {
+    "kicker": "The physician",
+    "title": "A practice dedicated to multisystem and underdiagnosed presentations.",
+    "body": [
+      "Carine Petry is a physician and Sleep Medicine specialist whose practice is dedicated to the clinical investigation of rare and frequently underdiagnosed conditions: Mast Cell Activation Syndrome (MCAS), Ehlers-Danlos Syndrome (EDS) and the persistent effects of COVID-19.",
+      "The practice is organized around three commitments: a clinical history detailed enough to reconstruct the trajectory of the symptom, correlation across systems before any conclusion, and transparency about the limits of what can be asserted. No promise medicine cannot keep."
+    ],
+    "philosophyLabel": "Clinical philosophy",
+    "philosophy": "To investigate is to hold uncertainty for as long as it takes for evidence to emerge, and to recognize, when it applies, that the right direction lies with another specialty.",
+    "link": "Read the full background"
+  },
+
   "method": {
-    "title": "Investigative medicine",
-    "body": "Investigative medicine is not just ordering tests. It means correlating seemingly unrelated symptoms, recognizing patterns others miss, and having the courage to consider rare diagnoses.",
-    "items": [
-      { "t": "Detailed clinical history", "d": "Long consultations, active listening and correlation of multisystem symptoms." },
-      { "t": "Investigative rigor", "d": "Diagnoses grounded in solid scientific evidence and continuous training in rare conditions." },
-      { "t": "Trajectory guidance", "d": "Clear direction — and the honesty to say \"this is not my field, but I know who can help\"." }
+    "kicker": "Approach",
+    "title": "How the investigation is conducted.",
+    "lead": "A defined path, with stages that build on one another. Each consultation begins where the previous one ended.",
+    "steps": [
+      { "t": "Listening and clinical timeline", "d": "Reconstructing the trajectory: when each symptom appeared, what preceded it, how it evolved and what has already been investigated. The order of events often points to the mechanism." },
+      { "t": "Integrating symptoms and systems", "d": "Joint analysis of skin, digestive tract, cardiovascular system, sleep and cognition. Symptoms treated as separate fragments rarely reveal what they share." },
+      { "t": "Hypotheses and targeted testing", "d": "Tests chosen from defined hypotheses, with attention to the correct moment of collection. In some conditions, the result depends on when the sample is taken." },
+      { "t": "Plan, follow-up and referrals", "d": "Reasoned direction, with follow-up of the response and, when the presentation calls for another specialty, the appropriate referral." }
     ]
   },
+
   "areasHome": {
-    "title": "Areas of practice",
+    "kicker": "Areas of practice",
+    "title": "Conditions investigated.",
+    "lead": "Four areas of investigation that frequently overlap in the same patient and are therefore assessed together.",
+    "signalsLabel": "Situations investigated",
+    "cta": "Understand the investigation",
     "items": [
-      { "t": "Mast Cell Activation Syndrome (MCAS)", "d": "Multisystem symptoms, unexplained allergies, reactions to foods and medications.", "slug": "sam" },
-      { "t": "Ehlers-Danlos Syndrome (EDS)", "d": "Hypermobility, chronic pain, dislocations and associated comorbidities.", "slug": "sed" },
-      { "t": "Long COVID", "d": "Persistent fatigue, brain fog and symptoms that remain after infection.", "slug": "covid-longa" },
-      { "t": "Sleep Medicine", "d": "Investigation of non-restorative sleep, apnea, insomnia and excessive sleepiness.", "slug": "medicina-do-sono" }
+      {
+        "slug": "sam",
+        "t": "Mast Cell Activation Syndrome",
+        "d": "Reactions involving skin, digestive tract, cardiovascular and nervous systems at once, without allergy testing explaining the picture.",
+        "signals": "Flushing · reactions to foods and medications · symptoms triggered by heat, exertion or stress"
+      },
+      {
+        "slug": "sed",
+        "t": "Ehlers-Danlos Syndrome",
+        "d": "Connective tissue alterations with joint, cutaneous and systemic repercussions, assessed against current international criteria.",
+        "signals": "Joint hypermobility · chronic pain · recurrent dislocations · fatigue"
+      },
+      {
+        "slug": "covid-longa",
+        "t": "Long COVID",
+        "d": "Symptoms persisting months after infection, with multisystem mechanisms under active investigation in the scientific literature.",
+        "signals": "Persistent fatigue · post-exertional malaise · cognitive changes · non-restorative sleep"
+      },
+      {
+        "slug": "medicina-do-sono",
+        "t": "Sleep Medicine",
+        "d": "Assessment of sleep architecture and quality as a structural axis, frequently the element that reorganizes the understanding of a complex case.",
+        "signals": "Non-restorative sleep · apnea · chronic insomnia · excessive daytime sleepiness"
+      }
     ]
   },
-  "blog": {
-    "title": "Blog — Science, translated clearly",
-    "subtitle": "Scientific content explained for you, without distorting simplifications.",
-    "readMore": "Read article",
-    "all": "See all articles",
-    "faqTitle": "Frequently asked questions",
-    "backToBlog": "← Back to blog",
-    "disclaimer": "This content is for information only and does not replace a medical consultation. Always seek individualized care."
+
+  "authority": {
+    "kicker": "Foundations",
+    "title": "Rigor demonstrated, not declared.",
+    "lead": "Verifiable training, output and participation. Nothing in this section is published without documentary evidence.",
+    "pending": "CONTENT_REQUIRED: publications, conference participation, teaching and professional affiliations awaiting supporting documentation. See docs/CONTENT_REQUIRED.md.",
+    "items": [
+      { "label": "Professional registration", "d": "CRM-DF 15342. Specialist Qualification Registry 16243 and 12865 (Brazil)." },
+      { "label": "Registered specialty", "d": "Sleep Medicine, with practice in the clinical investigation of multisystem presentations." },
+      { "label": "Basis of conduct", "d": "Current international diagnostic criteria for the conditions investigated, with continuous review of the literature." }
+    ]
   },
+
+  "journey": {
+    "kicker": "The consultation",
+    "title": "What to expect from the first contact.",
+    "items": [
+      { "t": "Who it is for", "d": "People with persistent, multisystem symptoms who have already been assessed without an integrated explanation of the picture." },
+      { "t": "How to prepare", "d": "Gather previous test results in chronological order, including those that came back unremarkable, and record the complete list of symptoms." },
+      { "t": "What to bring", "d": "A list of medications and supplements in use with doses, a history of reactions and a timeline of symptoms." },
+      { "t": "How first contact works", "d": "The request is received by the team, who provide guidance on the investigation and scheduling options." }
+    ]
+  },
+
+  "clinic": {
+    "kicker": "The practice",
+    "title": "Where the consultation takes place.",
+    "lead": "Centro Médico Lucio Costa, Asa Sul, Brasília. Accessibility and parking information on the contact page."
+  },
+
+  "articles": {
+    "kicker": "Scientific writing",
+    "title": "Science translated with precision.",
+    "lead": "Texts that explain mechanisms and criteria without simplifications that distort.",
+    "recentTitle": "What the evidence shows, updated regularly",
+    "recentLead": "Clear summaries on multisystem conditions, written for those who live with them and for those who investigate them.",
+    "all": "See all articles",
+    "readTime": "min read",
+    "readMore": "Read",
+    "backToBlog": "Back to writing",
+    "faqTitle": "Frequently asked questions",
+    "related": "Related reading",
+    "referencesTitle": "References",
+    "authorLabel": "Author",
+    "updatedLabel": "Updated on",
+    "disclaimer": "Informational content. It does not replace individualized medical assessment and does not establish a diagnosis."
+  },
+
+  "faqHome": {
+    "kicker": "Common questions",
+    "title": "Before requesting a consultation.",
+    "items": [
+      { "q": "When does an assessment like this make sense?", "a": "When persistent symptoms involve more than one body system without an explanation that integrates the whole, particularly after previous assessments that did not reach a clear direction." },
+      { "q": "How should I organize my test results?", "a": "In chronological order, with visible dates, including complete results rather than only the final report. Unremarkable results are relevant clinical information too." },
+      { "q": "Are patients from other regions seen?", "a": "Yes. The practice is in Brasília and receives patients from other locations. The team advises on scheduling at first contact." },
+      { "q": "What if my case belongs to another specialty?", "a": "Referral is part of clinical conduct. Recognizing that a presentation belongs to another field is part of medical responsibility, not a failure of the investigation." },
+      { "q": "What happens after I submit a request?", "a": "The team gets in touch to understand the case and provide guidance on the investigation and scheduling options." }
+    ]
+  },
+
+  "finalCta": {
+    "title": "If you recognize your history here, the first step is a conversation.",
+    "lead": "Send your information and the team will get in touch with guidance on the investigation and scheduling.",
+    "cta": "Request information about the consultation",
+    "note": "The team responds on business days."
+  },
+
+  "newsletter": {
+    "kicker": "Newsletter",
+    "title": "Science, translated",
+    "subtitle": "A weekly summary of what the science shows about multisystem conditions. Clear language, grounded in evidence.",
+    "name": "Name",
+    "namePlaceholder": "What should we call you",
+    "email": "Email",
+    "emailPlaceholder": "Your best email",
+    "profession": "You are",
+    "select": "Select",
+    "professionOptions": [
+      { "value": "medico", "label": "Physician" },
+      { "value": "nutricionista", "label": "Nutritionist" },
+      { "value": "profissional_saude", "label": "Health professional" },
+      { "value": "nao_profissional", "label": "Not a health professional" }
+    ],
+    "submit": "Subscribe",
+    "sending": "Sending",
+    "success": "Subscription confirmed. You will receive the next issue.",
+    "error": "The subscription could not be completed. Please try again.",
+    "consent": "By subscribing, you agree to receive emails from Carine Petry. You can unsubscribe anytime.",
+    "errName": "Please enter your name.",
+    "errEmail": "Please enter a valid email address.",
+    "errProfession": "Please select an option."
+  },
+
   "lp": {
     "formAnchor": "Request an assessment",
-    "symptomsKicker": "Recognition",
-    "symptomsNote": "No single symptom confirms a diagnosis. It is the whole set that draws the pattern — and that set is what the investigation analyzes.",
-    "evidenceKicker": "Scientific basis",
-    "journeyKicker": "How it works",
-    "journeyTitle": "The investigative path",
-    "journeySteps": [
-      { "t": "In-depth clinical history", "d": "A long consultation covering every body system, with a symptom timeline and clinical correlation. Depth before answers." },
-      { "t": "Targeted physical exam", "d": "Specific assessment according to the hypothesis: hypermobility, skin signs, standardized orthostatic measurement." },
-      { "t": "Hypothesis-driven testing", "d": "The right test, collected the right way, at the right time — not a generic panel that comes back normal." },
-      { "t": "Plan and direction", "d": "Clear hypotheses, evidence-based management and, when the case requires another specialty, the correct referral." }
-    ],
-    "formKicker": "First step",
-    "formTitle": "Request an assessment of your case",
-    "formLead": "Fill in the details below and the team will get in touch to guide you on investigation and scheduling. The more context you bring, the more the first consultation delivers.",
-    "medicalDisclaimer": "This form does not provide a diagnosis and does not replace a medical consultation. The information submitted is used solely for contact and scheduling guidance, in accordance with Brazilian data protection law (LGPD)."
+    "symptomsKicker": "Signs and symptoms",
+    "symptomsNote": "This list is informational and is not a self-diagnosis instrument. Isolated signs do not characterize the condition. Medical assessment considers the whole picture, its evolution and the applicable diagnostic criteria.",
+    "evidenceKicker": "Criteria and evidence",
+    "journeyKicker": "The investigation",
+    "journeyTitle": "How the assessment is conducted",
+    "limitsKicker": "Criteria and limitations",
+    "formKicker": "First contact",
+    "formTitle": "Request information about the consultation",
+    "formLead": "Briefly describe your case. The team will get in touch with guidance on the investigation and scheduling options.",
+    "medicalDisclaimer": "This form does not perform clinical triage, does not establish a diagnosis and does not replace a medical consultation. Information is used solely for contact and scheduling guidance, under Brazilian data protection law (LGPD)."
   },
+
   "form": {
-    "title": "Request an assessment",
-    "subtitle": "Response within 2 business days.",
+    "title": "Request information",
+    "subtitle": "Marked fields are required.",
     "name": "Full name",
     "email": "Email",
     "phone": "WhatsApp",
-    "phoneHint": "Include country code. Optional, but speeds up contact.",
-    "duration": "How long have you had these symptoms?",
+    "phoneHint": "Include country code. Optional.",
+    "duration": "How long you have had these symptoms",
+    "context": "Case context",
+    "contextHint": "Optional. A brief summary helps the team advise you better.",
     "select": "Select",
     "durationOptions": ["Less than 6 months", "6 months to 2 years", "2 to 5 years", "More than 5 years"],
-    "consent": "I authorize contact and the processing of my data for scheduling purposes, under the LGPD.",
+    "consent": "I authorize contact and the processing of my data for guidance and scheduling, under the LGPD.",
     "submit": "Send request",
-    "sending": "Sending…",
+    "sending": "Sending",
     "success": "Request received.",
-    "successBody": "The team will be in touch within 2 business days. You can also reach out directly on WhatsApp if you prefer.",
-    "error": "We couldn't send this right now. Please try again or contact us on WhatsApp.",
+    "successBody": "The team will get in touch using the details provided. WhatsApp is also available if you prefer.",
+    "error": "The request could not be sent. Please try again or use WhatsApp.",
     "errName": "Please enter your full name.",
     "errEmail": "Please enter a valid email address.",
     "errConsent": "You must authorize contact to proceed."
   },
+
   "contact": {
-    "title": "Contact and scheduling",
+    "kicker": "Contact",
+    "title": "First contact.",
+    "lead": "The request is received by the team, who follow up to understand the case and advise on the investigation and scheduling.",
     "phone": "Phone",
     "whatsapp": "WhatsApp",
+    "whatsappNote": "An alternative to the form, for those who prefer to speak directly.",
     "addressTitle": "Address",
+    "logisticsTitle": "Getting there",
+    "logistics": "CONTENT_REQUIRED: access guidance, physical accessibility, parking and opening hours awaiting confirmation.",
     "cta": "Message on WhatsApp"
   },
+
   "footer": {
-    "rights": "All rights reserved.",
-    "credentials": "Physician · CRM-DF 15342 · RQE 16243 / 12865 · Sleep Medicine Specialist"
+    "tagline": "High-complexity clinical investigation for multisystem presentations. Listening, method and evidence, in the time complexity requires.",
+    "credentials": "Physician · CRM-DF 15342 · RQE 16243 / 12865 · Sleep Medicine specialist",
+    "socialLabel": "Social media",
+    "clinicTitle": "Practice",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "addressTitle": "Address",
+    "medicalNotice": "Information published on this site is informational and educational. It does not replace individualized medical consultation, diagnosis or treatment.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "rights": "All rights reserved."
   }
 }

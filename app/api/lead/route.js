@@ -1,8 +1,15 @@
 export const dynamic = 'force-dynamic';
 
-// Recebe o lead e envia ao RD Station Marketing (API de conversão).
+// Recebe leads de consulta e assinaturas de newsletter e envia ao RD Station Marketing.
 // Configurar no painel da Vercel: RD_STATION_TOKEN (Public Token da conta).
-// Sem o token, o lead é registrado no log — nada se perde durante o setup.
+// Sem o token, o lead é registrado no log do servidor. Nada se perde durante o setup.
+
+const PROFISSAO_LABEL = {
+  medico: 'Médico(a)',
+  nutricionista: 'Nutricionista',
+  profissional_saude: 'Profissional da saúde',
+  nao_profissional: 'Não profissional da saúde'
+};
 
 export async function POST(request) {
   let body;
@@ -12,7 +19,8 @@ export async function POST(request) {
     return Response.json({ error: 'invalid_json' }, { status: 400 });
   }
 
-  const { nome, email, telefone, tempo, condition, lang, consent } = body || {};
+  const { nome, email, telefone, tempo, contexto, condition, profissao, type, lang, consent } = body || {};
+  const isNewsletter = type === 'newsletter';
 
   if (!nome || String(nome).trim().length < 2) {
     return Response.json({ error: 'invalid_name' }, { status: 400 });
@@ -23,17 +31,25 @@ export async function POST(request) {
   if (!consent) {
     return Response.json({ error: 'consent_required' }, { status: 400 });
   }
+  if (isNewsletter && !profissao) {
+    return Response.json({ error: 'profession_required' }, { status: 400 });
+  }
+
+  const conversionId = isNewsletter ? 'newsletter-ciencia-traduzida' : `consulta-${condition || 'geral'}`;
 
   const payload = {
     event_type: 'CONVERSION',
     event_family: 'CDP',
     payload: {
-      conversion_identifier: `site-${condition || 'geral'}`,
+      conversion_identifier: conversionId,
       name: String(nome).trim(),
       email: String(email).trim().toLowerCase(),
       personal_phone: telefone ? String(telefone).trim() : undefined,
-      cf_condicao_investigada: condition || '',
-      cf_tempo_sintomas: tempo || '',
+      cf_tipo_contato: isNewsletter ? 'newsletter' : 'consulta',
+      cf_profissao: profissao ? (PROFISSAO_LABEL[profissao] || profissao) : undefined,
+      cf_condicao_investigada: condition || undefined,
+      cf_tempo_sintomas: tempo || undefined,
+      cf_contexto_caso: contexto || undefined,
       cf_idioma: lang === 'en' ? 'en' : 'pt-BR',
       traffic_source: 'site-carinepetry'
     }
@@ -41,7 +57,7 @@ export async function POST(request) {
 
   const token = process.env.RD_STATION_TOKEN;
   if (!token) {
-    console.log('[lead] RD_STATION_TOKEN ausente — lead registrado localmente:', payload.payload);
+    console.log('[lead] RD_STATION_TOKEN ausente. Registro local:', payload.payload);
     return Response.json({ ok: true, stored: 'log' });
   }
 

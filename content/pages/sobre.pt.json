@@ -1,0 +1,36 @@
+{
+  "metaTitle": "Sobre",
+  "metaDesc": "Carine Petry, médica (CRM-DF 15342) e especialista em Medicina do Sono. Prática dedicada à investigação clínica de quadros multissistêmicos em Brasília-DF.",
+  "kicker": "Sobre",
+  "h1": "Uma prática construída sobre método, escuta e responsabilidade clínica.",
+  "lead": "Carine Petry é médica, especialista em Medicina do Sono, com atuação dedicada à investigação de quadros multissistêmicos e condições frequentemente subdiagnosticadas.",
+
+  "bioTitle": "Trajetória",
+  "bio": [
+    "A prática clínica de Carine Petry se organiza em torno de uma constatação recorrente: quadros que envolvem vários sistemas do corpo raramente encontram explicação quando cada sintoma é avaliado separadamente. Pele, trato digestivo, sistema cardiovascular, sono e cognição podem compartilhar um mesmo mecanismo — e é a leitura integrada que torna esse mecanismo visível.",
+    "Especialista em Medicina do Sono, dedica-se à investigação de condições como a Síndrome de Ativação de Mastócitos, a Síndrome de Ehlers-Danlos e as repercussões persistentes da Covid-19. São condições que compartilham três características: apresentação multissistêmica, critérios diagnósticos que exigem correlação clínica cuidadosa e um histórico frequente de atraso diagnóstico.",
+    "O trabalho combina anamnese aprofundada, exame físico dirigido e exames escolhidos a partir de hipóteses definidas — com atenção particular ao momento adequado de coleta, que em algumas condições determina o resultado. Quando a investigação aponta para outra área, o encaminhamento é parte da conduta, não uma interrupção dela."
+  ],
+
+  "formationKicker": "Formação e credenciais",
+  "formationTitle": "Registro profissional verificável.",
+  "formationNote": "Somente informações com comprovação documental são publicadas nesta seção.",
+  "formation": [
+    { "when": "Registro", "what": "CRM-DF 15342", "where": "Conselho Regional de Medicina do Distrito Federal" },
+    { "when": "Especialidade", "what": "Medicina do Sono", "where": "RQE 16243" },
+    { "when": "Qualificação", "what": "Registro de Qualificação de Especialista", "where": "RQE 12865" }
+  ],
+  "formationPending": "CONTENT_REQUIRED — graduação, residência, pós-graduação, títulos de especialista, certificações e vínculos institucionais, com instituição e ano. Ver docs/CONTENT_REQUIRED.md.",
+
+  "principlesKicker": "Princípios",
+  "principlesTitle": "O que orienta a conduta.",
+  "principles": [
+    { "t": "Profundidade antes de resposta", "d": "A consulta acompanha o tempo que a complexidade exige. Reconstruir uma trajetória de sintomas não cabe em um atendimento breve." },
+    { "t": "Correlação antes de conclusão", "d": "Sintomas são analisados em conjunto, entre sistemas, antes de qualquer hipótese ser considerada estabelecida." },
+    { "t": "Transparência sobre limites", "d": "O que a evidência sustenta é distinguido do que permanece incerto. Hipótese não é apresentada como diagnóstico." },
+    { "t": "Encaminhamento como conduta", "d": "Reconhecer que um quadro pertence a outra especialidade faz parte da responsabilidade clínica." },
+    { "t": "Validação sem promessa", "d": "Sintomas persistentes são levados a sério e investigados com método, sem garantia de resultado que a medicina não pode oferecer." }
+  ],
+
+  "contextLabel": "Imagens de contexto do trabalho clínico"
+}

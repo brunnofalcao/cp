@@ -7,24 +7,29 @@ export const dynamic = 'force-static';
 export function GET() {
   const posts = getAllPosts('pt');
   const lines = [
-    '# Dra. Carine Petry — carinepetry.com.br',
+    '# Carine Petry · carinepetry.com.br',
     '',
-    '> Médica (CRM-DF 15342, RQE 16243/12865), especialista em Medicina do Sono e referência nacional em Investigação Clínica de Alta Complexidade: Síndrome de Ativação de Mastócitos (SAM), Síndrome de Ehlers-Danlos (SED) e Covid Longa. Atendimento em Brasília-DF, Brasil.',
+    '> Médica (CRM-DF 15342, RQE 16243/12865), especialista em Medicina do Sono. Prática dedicada à investigação clínica de quadros multissistêmicos e condições frequentemente subdiagnosticadas: Síndrome de Ativação de Mastócitos (SAM), Síndrome de Ehlers-Danlos (SED) e Covid Longa. Consultório em Brasília-DF, Brasil.',
     '',
-    '## Sobre',
-    `- [Sobre a Dra. Carine Petry](${SITE.url}/sobre): formação, método investigativo e princípios.`,
-    `- [Áreas de atuação](${SITE.url}/areas): SAM, SED, Covid Longa e Medicina do Sono.`,
-    `- [Contato](${SITE.url}/contato): agendamento em Brasília-DF.`,
+    '## Institucional',
+    `- [Abordagem clínica](${SITE.url}/abordagem): as quatro etapas da investigação · escuta e linha do tempo, integração de sistemas, hipóteses e exames direcionados, plano e encaminhamentos.`,
+    `- [Sobre](${SITE.url}/sobre): trajetória, credenciais registradas e princípios de conduta.`,
+    `- [Áreas de atuação](${SITE.url}/areas): índice das condições investigadas.`,
+    `- [Contato](${SITE.url}/contato): solicitação de informações sobre a consulta.`,
     '',
-    '## Condições investigadas (páginas detalhadas)',
+    '## Condições investigadas',
     ...Object.entries(ptLp).map(([slug, lp]) => `- [${lp.condition}](${SITE.url}/condicoes/${slug}): ${lp.metaDesc}`),
     '',
-    '## Blog (ciência explicada para pacientes)',
+    '## Conteúdo científico',
     ...posts.map((p) => `- [${p.title}](${SITE.url}/blog/${p.slug}): ${p.description}`),
     '',
-    '## English version',
-    `- [English site](${SITE.url}/en): full English translation of all pages and articles.`
+    '## Versão em inglês',
+    `- [English site](${SITE.url}/en): tradução integral de todas as páginas e artigos.`,
+    '',
+    '## Observação',
+    'Todo o conteúdo é informativo e educacional. Não substitui consulta, diagnóstico ou tratamento médico individualizado. Autoria e revisão: Carine Petry, CRM-DF 15342.'
   ];
+
   return new Response(lines.join('\n'), {
     headers: { 'Content-Type': 'text/plain; charset=utf-8' }
   });
