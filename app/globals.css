@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500&display=swap');
-
 /* ============================================================
    Design tokens (v2) — inline, sem dependência de geração no build.
    Fonte de verdade documental: tokens/tokens.json.
@@ -33,8 +31,8 @@
   --c-aviso-bg: #F7F1E6;
 
   /* tipografia */
-  --font-display: 'Cormorant Garamond', 'Iowan Old Style', Georgia, serif;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-display: var(--font-display-src), 'Cormorant Garamond', 'Iowan Old Style', Georgia, serif;
+  --font-body: var(--font-body-src), 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
 
   --t-display-xl: 500 clamp(2.75rem, 5.4vw, 4.75rem)/1.02 var(--font-display);
   --t-display-xl-tracking: -0.022em;
@@ -738,6 +736,29 @@ body { overflow-x: hidden; }
   .hero-media { min-height: 640px; align-self: stretch; }
   .method-step { grid-template-columns: 120px 320px 1fr; }
   .cond-row { grid-template-columns: 96px 1fr 280px; }
+}
+
+/* ================= Impressão (artigos) ================= */
+
+@media print {
+  .hdr, .nav-desktop, .menu-btn, .drawer, .cta-sticky, .reading-progress,
+  .ftr, .news, .breadcrumbs, .hero-actions, .link-arrow, .btn { display: none !important; }
+
+  html, body { background: #fff !important; color: #000 !important; }
+  * { box-shadow: none !important; text-shadow: none !important; }
+
+  .wrap, .wrap-wide, .prose-wrap { max-width: 100% !important; padding-inline: 0 !important; }
+  section { padding-block: 12pt !important; }
+
+  .article-body { max-width: 100% !important; }
+  .article-body h2, .article-body h3, .d-xl, .d-l, .d-m, .d-s { color: #111 !important; }
+  .article-body a { color: #000 !important; border-bottom: none !important; }
+  /* Mostra o destino dos links de conteúdo para leitura impressa */
+  .article-body a[href^='http']::after { content: ' (' attr(href) ')'; font-size: 9pt; color: #555; }
+
+  .figure, img { break-inside: avoid; }
+  h1, h2, h3 { break-after: avoid; }
+  p, li, blockquote { orphans: 3; widows: 3; }
 }
 
 /* ================= Movimento reduzido ================= */
