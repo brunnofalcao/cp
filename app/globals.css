@@ -154,7 +154,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(var(--l-grid-columns), minmax(0, 1fr));
+  grid-template-columns: repeat(12, minmax(0, 1fr));
   column-gap: var(--l-gutter);
   row-gap: var(--s-2xl);
 }
@@ -279,9 +279,9 @@ section.flush { padding-block: 0; }
 }
 /* Marca = logomarca real */
 .brandmark { display: inline-flex; align-items: center; }
-.brand-logo { display: block; width: auto; height: 40px; }
-.brandmark-footer .brand-logo { height: 46px; }
-@media (min-width: 1024px) { .brand-logo { height: 46px; } }
+.brand-logo { display: block; width: auto; height: 52px; max-width: 210px; object-fit: contain; }
+.brandmark-footer .brand-logo { height: 60px; max-width: 240px; }
+@media (min-width: 1024px) { .brand-logo { height: 60px; } .brandmark-footer .brand-logo { height: 68px; } }
 
 /* wordmark textual (fallback legado, não usado com a logo real) */
 .wordmark-text { display: flex; flex-direction: column; justify-content: center; line-height: 1; }
