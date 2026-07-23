@@ -279,9 +279,9 @@ section.flush { padding-block: 0; }
 }
 /* Marca = logomarca real */
 .brandmark { display: inline-flex; align-items: center; }
-.brand-logo { display: block; width: auto; height: 52px; max-width: 210px; object-fit: contain; }
-.brandmark-footer .brand-logo { height: 60px; max-width: 240px; }
-@media (min-width: 1024px) { .brand-logo { height: 60px; } .brandmark-footer .brand-logo { height: 68px; } }
+.brand-logo { display: block; width: auto; height: 46px; max-width: 260px; object-fit: contain; object-position: left center; }
+.brandmark-footer .brand-logo { height: 56px; max-width: 320px; object-position: left center; }
+@media (min-width: 1024px) { .brand-logo { height: 54px; max-width: 300px; } .brandmark-footer .brand-logo { height: 64px; max-width: 360px; } }
 
 /* wordmark textual (fallback legado, não usado com a logo real) */
 .wordmark-text { display: flex; flex-direction: column; justify-content: center; line-height: 1; }
@@ -648,6 +648,39 @@ section.flush { padding-block: 0; }
 
 /* Sublinhado de link com transição suave */
 .link-arrow::after { will-change: transform; }
+
+/* ---------- Polimento premium (front-end, sem mudança de estrutura) ---------- */
+
+/* Rolagem suave para âncoras internas */
+html { scroll-behavior: smooth; }
+
+/* Guarda contra scroll horizontal acidental em qualquer breakpoint */
+body { overflow-x: hidden; }
+
+/* Botões com resposta tátil: leve elevação no hover, retorno no clique */
+.btn { transition: background var(--dur-base) var(--ease-out), border-color var(--dur-base) var(--ease-out), color var(--dur-base) var(--ease-out), transform var(--dur-fast) var(--ease-out), box-shadow var(--dur-base) var(--ease-out); }
+.btn-primary:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(142, 19, 72, 0.22); }
+.btn-primary:active { transform: translateY(0); box-shadow: none; }
+.btn-secondary:active { transform: translateY(0); }
+
+/* Imagem editorial: zoom sutil no hover (apenas onde há ponteiro fino) */
+.figure { --img-scale: 1; }
+.figure img { transition: transform var(--dur-slow) var(--ease-out); transform: scale(var(--img-scale)); }
+@media (hover: hover) and (pointer: fine) {
+  .figure:hover img { --img-scale: 1.035; }
+}
+
+/* Linhas de condição e artigo com realce discreto ao passar o mouse */
+@media (hover: hover) and (pointer: fine) {
+  .cond-row:hover { background: rgba(74, 25, 66, 0.02); }
+  .article-row:hover { background: rgba(74, 25, 66, 0.015); }
+}
+
+/* Foco de teclado também nos itens de navegação e cartões clicáveis */
+.post-card:focus-within { border-color: var(--c-linha-forte); box-shadow: 0 10px 30px rgba(36,16,33,0.06); }
+
+/* Imagens carregam sem "pulo" de layout */
+.figure { background-color: var(--c-creme-fundo); }
 
 /* ================= Responsivo ================= */
 
