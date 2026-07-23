@@ -246,13 +246,22 @@ section.flush { padding-block: 0; }
 .link-arrow:hover::after { transform: translateX(3px); }
 
 .skip-link {
-  position: absolute; left: var(--s-md); top: var(--s-md);
-  transform: translateY(-200%);
+  position: fixed; left: var(--s-md); top: var(--s-md); z-index: 200;
   background: var(--c-borgonha); color: var(--c-creme);
-  padding: var(--s-sm) var(--s-md); border-radius: var(--r-sm); z-index: 200;
+  padding: var(--s-sm) var(--s-md); border-radius: var(--r-sm);
   font: var(--t-body-sm);
+  /* Escondido de verdade até receber foco por teclado */
+  transform: translateY(calc(-100% - var(--s-xl)));
+  opacity: 0;
+  pointer-events: none;
+  transition: transform var(--dur-fast) var(--ease-out), opacity var(--dur-fast) var(--ease-out);
 }
-.skip-link:focus { transform: translateY(0); }
+/* Só aparece na navegação por teclado (Tab), nunca no toque/clique ou troca de página */
+.skip-link:focus-visible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
 
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
@@ -771,4 +780,3 @@ body { overflow-x: hidden; }
     scroll-behavior: auto !important;
   }
   .reveal { opacity: 1; transform: none; }
-}
