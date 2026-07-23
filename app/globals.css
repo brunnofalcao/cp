@@ -1,5 +1,122 @@
-@import './tokens.css';
-@import './fonts.css';
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500&display=swap');
+
+/* ============================================================
+   Design tokens (v2) — inline, sem dependência de geração no build.
+   Fonte de verdade documental: tokens/tokens.json.
+   ============================================================ */
+:root {
+  /* cor · marca */
+  --c-borgonha-dark: #241021;
+  --c-borgonha: #4A1942;
+  --c-vinho: #6B2A55;
+  --c-rosa-queimado: #A8577A;
+  --c-magenta: #8E1348;
+  --c-magenta-acao: #B01755;
+  --c-magenta-acao-hover: #8E1348;
+  /* cor · neutros */
+  --c-creme: #FBF7F4;
+  --c-creme-fundo: #F4EEE9;
+  --c-branco: #FFFFFF;
+  --c-linha: #E2DAD3;
+  --c-linha-forte: #CBBFB6;
+  --c-grafite-claro: #7A716B;
+  --c-grafite: #3A3532;
+  --c-tinta: #1C1917;
+  /* cor · sobre fundo escuro */
+  --c-texto: #F0E7E2;
+  --c-texto-fraco: #C9B4BF;
+  /* cor · semânticas */
+  --c-sucesso: #1D6E4F;
+  --c-sucesso-bg: #EAF3EF;
+  --c-erro: #A62B22;
+  --c-erro-bg: #FBEDEC;
+  --c-aviso-bg: #F7F1E6;
+
+  /* tipografia */
+  --font-display: 'Cormorant Garamond', 'Iowan Old Style', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+
+  --t-display-xl: 500 clamp(2.75rem, 5.4vw, 4.75rem)/1.02 var(--font-display);
+  --t-display-xl-tracking: -0.022em;
+  --t-display-l: 500 clamp(2.5rem, 4.6vw, 4rem)/1.05 var(--font-display);
+  --t-display-l-tracking: -0.02em;
+  --t-display-m: 500 clamp(2rem, 3.4vw, 3rem)/1.1 var(--font-display);
+  --t-display-m-tracking: -0.015em;
+  --t-display-s: 500 clamp(1.65rem, 2.4vw, 2.375rem)/1.15 var(--font-display);
+  --t-display-s-tracking: -0.01em;
+  --t-heading: 500 clamp(1.25rem, 1.6vw, 1.5rem)/1.3 var(--font-body);
+  --t-heading-tracking: -0.008em;
+  --t-heading-serif: 500 clamp(1.375rem, 1.9vw, 1.75rem)/1.25 var(--font-display);
+  --t-heading-serif-tracking: 0;
+  --t-lead: 400 clamp(1.0625rem, 1.15vw, 1.1875rem)/1.62 var(--font-body);
+  --t-lead-tracking: 0;
+  --t-body: 400 1.0625rem/1.68 var(--font-body);
+  --t-body-tracking: 0;
+  --t-body-sm: 400 0.9375rem/1.6 var(--font-body);
+  --t-body-sm-tracking: 0;
+  --t-caption: 400 0.875rem/1.5 var(--font-body);
+  --t-caption-tracking: 0;
+  --t-micro: 500 0.8125rem/1.4 var(--font-body);
+  --t-micro-tracking: 0.1em;
+  --t-numeral: 500 clamp(2.25rem, 3vw, 3.25rem)/1 var(--font-display);
+  --t-numeral-tracking: -0.01em;
+
+  --measure-prose: 66ch;
+  --measure-lead: 58ch;
+  --measure-display: 17ch;
+
+  /* espaçamento */
+  --s-3xs: 2px;
+  --s-2xs: 4px;
+  --s-xs: 8px;
+  --s-sm: 12px;
+  --s-md: 16px;
+  --s-lg: 24px;
+  --s-xl: 32px;
+  --s-2xl: 48px;
+  --s-3xl: 72px;
+  --s-4xl: 104px;
+  --s-5xl: 144px;
+  --section-mobile: 64px;
+  --section-tablet: 88px;
+  --section-desktop: 128px;
+
+  /* forma e layout */
+  --r-none: 0;
+  --r-xs: 4px;
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-pill: 999px;
+  --l-container: 1280px;
+  --l-container-wide: 1440px;
+  --l-container-prose: 680px;
+  --l-gutter: 24px;
+  --l-gutter-desktop: 32px;
+  --l-margin-mobile: 20px;
+  --l-margin-desktop: 48px;
+  --l-header-height: 84px;
+  --l-header-height-mobile: 64px;
+  --l-grid-columns: 12;
+
+  /* elevação */
+  --e-subtle: 0 1px 2px rgba(36, 16, 33, 0.04);
+  --e-header: 0 1px 0 rgba(36, 16, 33, 0.07);
+  --e-sheet: 0 0 0 100vmax rgba(28, 25, 23, 0.45);
+
+  /* motion */
+  --dur-fast: 160ms;
+  --dur-base: 280ms;
+  --dur-slow: 440ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --reveal-offset: 14px;
+  --reveal-dur: 440ms;
+  --reveal-stagger: 70ms;
+
+  /* acessibilidade */
+  --touch-min: 44px;
+  --focus-ring: 0 0 0 2px #FBF7F4, 0 0 0 4px #B01755;
+}
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
