@@ -681,15 +681,16 @@ section.flush { padding-block: 0; }
   .menu-btn { display: none; }
   .cta-sticky { display: none; }
 
-  .c-3 { grid-column: span 3; }
-  .c-4 { grid-column: span 4; }
-  .c-5 { grid-column: span 5; }
-  .c-6 { grid-column: span 6; }
-  .c-7 { grid-column: span 7; }
-  .c-8 { grid-column: span 8; }
-  .c-9 { grid-column: span 9; }
-  .c-10 { grid-column: span 10; }
-  .c-12 { grid-column: span 12; }
+  .c-3 { grid-column: auto / span 3; }
+  .c-4 { grid-column: auto / span 4; }
+  .c-5 { grid-column: auto / span 5; }
+  .c-6 { grid-column: auto / span 6; }
+  .c-7 { grid-column: auto / span 7; }
+  .c-8 { grid-column: auto / span 8; }
+  .c-9 { grid-column: auto / span 9; }
+  .c-10 { grid-column: auto / span 10; }
+  .c-12 { grid-column: auto / span 12; }
+  /* start-N sobrescreve apenas o início; o fim continua "span N" acima */
   .start-2 { grid-column-start: 2; }
   .start-3 { grid-column-start: 3; }
   .start-4 { grid-column-start: 4; }
