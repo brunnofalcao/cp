@@ -20,7 +20,8 @@ export default function EditorialImage({
   minPx,
   format = 'JPG ou WebP',
   caption,
-  className = ''
+  className = '',
+  objectPosition
 }) {
   const style = ratio ? { aspectRatio: ratio } : undefined;
 
@@ -54,7 +55,8 @@ export default function EditorialImage({
 
   return (
     <figure className={`figure ${className}`} style={style}>
-      <Image src={src} alt={alt} fill sizes={sizes} priority={priority} quality={82} />
+      <Image src={src} alt={alt} fill sizes={sizes} priority={priority} quality={82}
+        style={objectPosition ? { objectPosition } : undefined} />
       {caption && <figcaption>{caption}</figcaption>}
     </figure>
   );
