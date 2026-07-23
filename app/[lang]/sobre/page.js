@@ -6,7 +6,7 @@ import Reveal from '../../../components/Reveal';
 import { FinalCta, StickyCta, EvidencePanel } from '../../../components/sections';
 import JsonLd, { breadcrumbSchema } from '../../../components/JsonLd';
 import { getDictionary } from '../../../lib/dictionaries';
-import { altUrls } from '../../../lib/site';
+import { altUrls, SITE } from '../../../lib/site';
 import ptAbout from '../../../content/pages/sobre.pt.json';
 import enAbout from '../../../content/pages/sobre.en.json';
 
@@ -51,13 +51,14 @@ export default function Sobre({ params }) {
               <div className="c-5 start-8">
                 <EditorialImage
                   id="IMG-02"
+                  src={SITE.photos.retrato}
                   ratio="4 / 5"
                   priority
                   sizes="(max-width: 1024px) 100vw, 38vw"
                   tag="Retrato editorial · hero Sobre"
                   brief="Mesmo arquivo usado no perfil da home. Fundo neutro, luz natural lateral, plano médio."
                   px="1600 × 2000"
-                  alt=""
+                  alt="Dra. Carine Petry"
                 />
               </div>
             </div>
