@@ -72,13 +72,14 @@ export function HeroEditorial({ lang, dict }) {
           <div className="c-5 start-8 hero-media">
             <EditorialImage
               id="IMG-01"
+              src={SITE.photos.retrato}
               ratio="4 / 5"
               priority
               sizes="(max-width: 1024px) 100vw, 42vw"
               tag="Retrato principal · hero"
               brief="Plano médio, luz natural lateral, expressão segura e serena. Fundo do consultório desfocado."
               px="1600 × 2000"
-              alt=""
+              alt="Dra. Carine Petry"
             />
           </div>
         </div>
