@@ -35,7 +35,7 @@ export async function generateMetadata({ params }) {
       description,
       url: isPt ? alts.pt : alts.en,
       images: [{
-        url: '/og-default.jpg',
+        url: SITE.ogImage,
         width: 1200,
         height: 630,
         alt: isPt
@@ -47,7 +47,7 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       title,
       description,
-      images: ['/og-default.jpg']
+      images: [SITE.ogImage]
     },
     icons: {
       icon: [{ url: SITE.logo.icone }, { url: '/favicon.ico' }],

@@ -34,8 +34,11 @@ export async function generateMetadata({ params }) {
     title: t.metaTitle,
     description: t.metaDesc,
     alternates: { canonical: url, languages: { 'pt-BR': alts.pt, en: alts.en, 'x-default': alts.pt } },
-    openGraph: { type: 'website', title: t.metaTitle, description: t.metaDesc, url, images: ['/og-default.jpg'] },
-    twitter: { card: 'summary_large_image', title: t.metaTitle, description: t.metaDesc, images: ['/og-default.jpg'] },
+    openGraph: {
+      type: 'website', title: t.metaTitle, description: t.metaDesc, url,
+      images: [{ url: SITE.ogImage, width: 1200, height: 630, alt: t.metaTitle }]
+    },
+    twitter: { card: 'summary_large_image', title: t.metaTitle, description: t.metaDesc, images: [SITE.ogImage] },
     robots: { index: true, follow: true }
   };
 }
