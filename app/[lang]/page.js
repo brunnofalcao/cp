@@ -1,48 +1,73 @@
-import AppHeader from '../../components/AppHeader';
-import AppFooter from '../../components/AppFooter';
-import NewsletterForm from '../../components/NewsletterForm';
-import {
-  HeroEditorial, CredentialRail, Manifesto, DoctorProfile, MethodSteps,
-  ConditionIndex, EvidencePanel, PatientJourney, ClinicGallery,
-  RecentPosts, FaqAccordion, FinalCta, StickyCta
-} from '../../components/sections';
-import JsonLd, { faqSchema } from '../../components/JsonLd';
-import { getDictionary } from '../../lib/dictionaries';
-import { getAllPosts } from '../../lib/posts';
+import SocialIcon from '../../components/SocialIcons';
+import { SITE } from '../../lib/site';
+import { altUrls } from '../../lib/site';
 
-export default function Home({ params }) {
+const T = {
+  pt: {
+    kicker: 'Investigação clínica de alta complexidade',
+    title: 'Em breve',
+    lead: 'Um novo espaço para a medicina que escuta, integra e investiga.',
+    sub: 'Enquanto cada detalhe é preparado, você já pode acompanhar por aqui.',
+    cred: 'Dra. Carine Petry · CRM-DF 15342 · Medicina do Sono · Brasília',
+    metaTitle: 'Carine Petry | Em breve',
+    metaDesc:
+      'Em breve, um novo espaço dedicado à investigação clínica de quadros multissistêmicos e condições frequentemente subdiagnosticadas. Medicina do Sono em Brasília.'
+  },
+  en: {
+    kicker: 'High-complexity clinical investigation',
+    title: 'Coming soon',
+    lead: 'A new space for medicine that listens, integrates and investigates.',
+    sub: 'While every detail is being prepared, you can already follow along here.',
+    cred: 'Carine Petry, MD · CRM-DF 15342 · Sleep Medicine · Brasília, Brazil',
+    metaTitle: 'Carine Petry | Coming soon',
+    metaDesc:
+      'Coming soon, a new space dedicated to the clinical investigation of multisystem and frequently underdiagnosed conditions. Sleep Medicine in Brasília, Brazil.'
+  }
+};
+
+export async function generateMetadata({ params }) {
   const lang = params.lang === 'en' ? 'en' : 'pt';
-  const dict = getDictionary(lang);
-  const posts = getAllPosts(lang).slice(0, 3);
+  const t = T[lang];
+  const alts = altUrls('/');
+  const url = lang === 'en' ? alts.en : alts.pt;
+  return {
+    title: t.metaTitle,
+    description: t.metaDesc,
+    alternates: { canonical: url, languages: { 'pt-BR': alts.pt, en: alts.en, 'x-default': alts.pt } },
+    openGraph: { type: 'website', title: t.metaTitle, description: t.metaDesc, url, images: ['/og-default.jpg'] },
+    twitter: { card: 'summary_large_image', title: t.metaTitle, description: t.metaDesc, images: ['/og-default.jpg'] },
+    robots: { index: true, follow: true }
+  };
+}
+
+export default function ComingSoon({ params }) {
+  const lang = params.lang === 'en' ? 'en' : 'pt';
+  const t = T[lang];
 
   return (
-    <>
-      <AppHeader lang={lang} dict={dict} currentPath="/" />
-      <JsonLd data={faqSchema(dict.faqHome.items)} />
-
-      <main id="main">
-        <HeroEditorial lang={lang} dict={dict} />
-        <CredentialRail dict={dict} />
-        <Manifesto dict={dict} />
-        <DoctorProfile lang={lang} dict={dict} />
-        <MethodSteps dict={dict} />
-        <ConditionIndex lang={lang} dict={dict} />
-        <EvidencePanel dict={dict} />
-        <PatientJourney dict={dict} />
-        <ClinicGallery dict={dict} />
-        <RecentPosts lang={lang} dict={dict} posts={posts} />
-        <NewsletterForm lang={lang} dict={dict} />
-        <FaqAccordion
-          kicker={dict.faqHome.kicker}
-          title={dict.faqHome.title}
-          items={dict.faqHome.items}
-          tint={false}
-        />
-        <FinalCta lang={lang} dict={dict} />
-      </main>
-
-      <StickyCta lang={lang} dict={dict} />
-      <AppFooter lang={lang} dict={dict} />
-    </>
+    <main id="main" className="soon">
+      <div className="soon-inner">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img className="soon-logo" src={SITE.logo.negativo} alt="Carine Petry" />
+        <span className="soon-kicker">{t.kicker}</span>
+        <h1 className="soon-title">{t.title}</h1>
+        <div className="soon-rule" aria-hidden="true" />
+        <p className="soon-lead">{t.lead}</p>
+        <p className="soon-sub">{t.sub}</p>
+        <div className="soon-social" aria-label={lang === 'en' ? 'Social networks' : 'Redes sociais'}>
+          {SITE.instagram && (
+            <a href={SITE.instagram} target="_blank" rel="noopener" aria-label="Instagram">
+              <SocialIcon name="instagram" />
+            </a>
+          )}
+          {SITE.whatsappLink && (
+            <a href={SITE.whatsappLink} target="_blank" rel="noopener" aria-label="WhatsApp">
+              <SocialIcon name="whatsapp" />
+            </a>
+          )}
+        </div>
+        <p className="soon-cred">{t.cred}</p>
+      </div>
+    </main>
   );
 }

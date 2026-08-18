@@ -31,8 +31,8 @@
   --c-aviso-bg: #F7F1E6;
 
   /* tipografia */
-  --font-display: var(--font-display-src), 'Cormorant Garamond', 'Iowan Old Style', Georgia, serif;
-  --font-body: var(--font-body-src), 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-display: var(--font-display-src, 'Cormorant Garamond'), 'Iowan Old Style', Georgia, serif;
+  --font-body: var(--font-body-src, 'Inter'), -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
 
   --t-display-xl: 500 clamp(2.75rem, 5.4vw, 4.75rem)/1.02 var(--font-display);
   --t-display-xl-tracking: -0.022em;
@@ -746,6 +746,63 @@ body { overflow-x: hidden; }
   .method-step { grid-template-columns: 120px 320px 1fr; }
   .cond-row { grid-template-columns: 96px 1fr 280px; }
 }
+
+/* ---------- Página "Em breve" (splash de lançamento) ---------- */
+
+.soon {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: var(--s-3xl) var(--l-margin-mobile);
+  background: radial-gradient(120% 92% at 50% 0%, #3a1533 0%, var(--c-borgonha-dark) 56%, #180a16 100%);
+  color: var(--c-texto);
+}
+.soon-inner { max-width: 720px; display: flex; flex-direction: column; align-items: center; }
+.soon-logo {
+  display: block; width: auto; height: 84px; max-width: min(80vw, 360px);
+  object-fit: contain; margin-bottom: var(--s-2xl);
+}
+.soon-kicker {
+  font: var(--t-micro); letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--c-rosa-queimado); margin-bottom: var(--s-lg);
+}
+.soon-title {
+  font-family: var(--font-display); font-weight: 500;
+  font-size: clamp(3rem, 12vw, 6rem); line-height: 1; letter-spacing: -0.02em;
+  color: var(--c-creme); text-wrap: balance;
+}
+.soon-rule { width: 64px; height: 1px; background: var(--c-magenta-acao); margin: var(--s-xl) 0; }
+.soon-lead {
+  font-family: var(--font-display); font-weight: 500;
+  font-size: clamp(1.35rem, 3.4vw, 1.95rem); line-height: 1.25;
+  color: var(--c-creme); max-width: 22ch; margin-inline: auto; text-wrap: balance;
+}
+.soon-sub {
+  font: var(--t-body); color: var(--c-texto-fraco);
+  margin-top: var(--s-lg); max-width: 44ch; margin-inline: auto;
+}
+.soon-social { display: flex; gap: var(--s-md); margin-top: var(--s-2xl); }
+.soon-social a {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 46px; height: 46px; border: 1px solid rgba(240,231,226,0.25); border-radius: var(--r-pill);
+  color: var(--c-rosa-queimado);
+  transition: border-color var(--dur-base) var(--ease-out), color var(--dur-base) var(--ease-out), transform var(--dur-base) var(--ease-out);
+}
+.soon-social a:hover { border-color: var(--c-rosa-queimado); color: var(--c-creme); transform: translateY(-2px); }
+.soon-cred { font: var(--t-caption); color: var(--c-texto-fraco); margin-top: var(--s-3xl); letter-spacing: 0.02em; }
+
+.soon-inner > * { animation: rise 0.8s var(--ease-out) both; }
+.soon-inner > *:nth-child(1) { animation-delay: 0.05s; }
+.soon-inner > *:nth-child(2) { animation-delay: 0.15s; }
+.soon-inner > *:nth-child(3) { animation-delay: 0.25s; }
+.soon-inner > *:nth-child(4) { animation-delay: 0.35s; }
+.soon-inner > *:nth-child(5) { animation-delay: 0.45s; }
+.soon-inner > *:nth-child(6) { animation-delay: 0.55s; }
+.soon-inner > *:nth-child(7) { animation-delay: 0.65s; }
+.soon-inner > *:nth-child(8) { animation-delay: 0.75s; }
+
+@media (min-width: 1024px) { .soon-logo { height: 108px; } }
 
 /* ================= Impressão (artigos) ================= */
 

@@ -4,7 +4,7 @@ import Image from 'next/image';
  * Imagem editorial com slot marcado.
  *
  * Enquanto `src` for nulo, renderiza um placeholder identificado com o código do slot,
- * o formato esperado e o briefing — nunca uma foto genérica de banco de imagens.
+ * o formato esperado e o briefing, nunca uma foto genérica de banco de imagens.
  * Os códigos correspondem à tabela de produção em docs/CONTENT_REQUIRED.md.
  */
 export default function EditorialImage({
