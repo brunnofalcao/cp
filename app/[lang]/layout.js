@@ -12,15 +12,15 @@ export async function generateMetadata({ params }) {
   const alts = altUrls('/');
 
   const title = isPt
-    ? 'Carine Petry | Investigação clínica de alta complexidade'
-    : 'Carine Petry | High-complexity clinical investigation';
+    ? 'Dra. Carine Petry | Investigação clínica de alta complexidade'
+    : 'Dr. Carine Petry | High-complexity clinical investigation';
   const description = isPt
     ? 'Abordagem médica aprofundada para sintomas multissistêmicos. Investigação clínica em Síndrome de Ativação de Mastócitos, Ehlers-Danlos, Covid Longa e Medicina do Sono. Brasília-DF.'
     : 'An in-depth medical approach to multisystem symptoms. Clinical investigation in Mast Cell Activation Syndrome, Ehlers-Danlos, Long COVID and Sleep Medicine. Brasília, Brazil.';
 
   return {
     metadataBase: new URL(SITE.url),
-    title: { default: title, template: '%s | Carine Petry' },
+    title: { default: title, template: isPt ? '%s | Dra. Carine Petry' : '%s | Dr. Carine Petry' },
     description,
     authors: [{ name: 'Carine Petry' }],
     alternates: {
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       type: 'website',
       locale: isPt ? 'pt_BR' : 'en_US',
-      siteName: 'Carine Petry',
+      siteName: 'Dra. Carine Petry',
       title,
       description,
       url: isPt ? alts.pt : alts.en,
@@ -39,8 +39,8 @@ export async function generateMetadata({ params }) {
         width: 1200,
         height: 630,
         alt: isPt
-          ? 'Carine Petry, médica especialista em investigação clínica de alta complexidade'
-          : 'Carine Petry, physician specialized in high-complexity clinical investigation'
+          ? 'Dra. Carine Petry, investigação clínica de alta complexidade'
+          : 'Dr. Carine Petry, high-complexity clinical investigation'
       }]
     },
     twitter: {

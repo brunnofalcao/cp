@@ -1,0 +1,4 @@
+ATUALIZACAO · Correcoes da Dra. Carine + Palestras + Condicoes abordadas + correcao do build
+Suba de uma vez: GitHub -> Add file -> Upload files -> arraste as pastas app, components, lib, dictionaries e content -> Commit.
+Tudo na RAIZ do repositorio. Nao existe pasta site/ aqui. Depois do build verde, apague a pasta site/ antiga do repo.
+Previa da home completa: /teste   (a home publica segue "Em breve")

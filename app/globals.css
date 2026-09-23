@@ -747,6 +747,37 @@ body { overflow-x: hidden; }
   .cond-row { grid-template-columns: 96px 1fr 280px; }
 }
 
+/* ---------- Link de formação na capa ---------- */
+
+.hero-cv {
+  display: inline-block; margin-left: var(--s-sm);
+  color: var(--c-creme); border-bottom: 1px solid rgba(240,231,226,0.4);
+  transition: border-color var(--dur-fast) var(--ease-out);
+}
+.hero-cv:hover { border-bottom-color: var(--c-creme); }
+
+/* ---------- Condições abordadas ---------- */
+
+.cond-list { list-style: none; display: grid; grid-template-columns: 1fr; border-top: 1px solid var(--c-linha); }
+.cond-list li { border-bottom: 1px solid var(--c-linha); }
+.cond-list li > a, .cond-list li > span {
+  display: flex; align-items: center; justify-content: space-between; gap: var(--s-md);
+  min-height: var(--touch-min); padding-block: var(--s-md);
+  font: var(--t-heading-serif); color: var(--c-borgonha);
+}
+.cond-list li > a::after { content: '→'; font: var(--t-body-sm); color: var(--c-magenta); transition: transform var(--dur-base) var(--ease-out); }
+.cond-list li > a:hover { color: var(--c-magenta); }
+.cond-list li > a:hover::after { transform: translateX(3px); }
+@media (min-width: 768px) {
+  .cond-list { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--s-xl); }
+}
+
+/* Menu com 6 itens: respiro menor entre 1024 e 1279 px */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .nav-desktop { gap: var(--s-lg) !important; }
+  .nav-desktop a { font-size: 0.875rem; }
+}
+
 /* ---------- Página "Em breve" (splash de lançamento) ---------- */
 
 .soon {

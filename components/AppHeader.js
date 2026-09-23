@@ -27,8 +27,9 @@ export default function AppHeader({ lang, dict, currentPath = '/' }) {
 
   const nav = [
     { href: '/abordagem', label: dict.nav.approach },
-    { href: '/areas', label: dict.nav.areas },
+    { href: '/condicoes', label: dict.nav.conditions },
     { href: '/sobre', label: dict.nav.about },
+    { href: '/palestras', label: dict.nav.talks },
     { href: '/blog', label: dict.nav.content },
     { href: '/contato', label: dict.nav.contact }
   ];

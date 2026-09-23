@@ -2,7 +2,7 @@ import AppHeader from '../../../components/AppHeader';
 import AppFooter from '../../../components/AppFooter';
 import NewsletterForm from '../../../components/NewsletterForm';
 import {
-  HeroEditorial, CredentialRail, Manifesto, DoctorProfile, MethodSteps,
+  HeroEditorial, CredentialRail, ConditionsList, DoctorProfile, MethodSteps,
   ConditionIndex, EvidencePanel, PatientJourney, ClinicGallery,
   RecentPosts, FaqAccordion, FinalCta, StickyCta
 } from '../../../components/sections';
@@ -32,7 +32,7 @@ export default function HomeTeste({ params }) {
       <main id="main">
         <HeroEditorial lang={lang} dict={dict} />
         <CredentialRail dict={dict} />
-        <Manifesto dict={dict} />
+        <ConditionsList lang={lang} dict={dict} />
         <DoctorProfile lang={lang} dict={dict} />
         <MethodSteps dict={dict} />
         <ConditionIndex lang={lang} dict={dict} />

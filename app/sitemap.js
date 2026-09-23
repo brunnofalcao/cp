@@ -24,10 +24,14 @@ export default function sitemap() {
 
   push('', 1, 'monthly');
   push('/abordagem', 0.9, 'monthly');
-  push('/areas', 0.9, 'monthly');
+  push('/condicoes', 0.9, 'monthly');
+  push('/areas', 0.8, 'monthly');
   push('/sobre', 0.8, 'monthly');
+  push('/palestras', 0.7, 'monthly');
   push('/blog', 0.8, 'daily');
   push('/contato', 0.8, 'monthly');
+  push('/privacidade', 0.3, 'yearly');
+  push('/termos', 0.3, 'yearly');
 
   for (const slug of Object.keys(ptLp)) push(`/condicoes/${slug}`, 0.9, 'monthly');
   for (const slug of getPostSlugs('pt')) push(`/blog/${slug}`, 0.7, 'weekly');

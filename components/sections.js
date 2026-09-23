@@ -66,7 +66,10 @@ export function HeroEditorial({ lang, dict }) {
               </CtaLink>
               <Link className="btn btn-secondary" href={langHref(lang, '/abordagem')}>{h.ctaSecondary}</Link>
             </div>
-            <p className="hero-cred">{h.credentials}</p>
+            <p className="hero-cred">
+              {h.credentials}
+              <Link className="hero-cv" href={`${langHref(lang, '/sobre')}#formacao`}>{h.cvLink}</Link>
+            </p>
           </div>
 
           <div className="c-5 start-8 hero-media">
@@ -101,6 +104,42 @@ export function CredentialRail({ dict }) {
             </div>
           ))}
         </dl>
+      </div>
+    </section>
+  );
+}
+
+/* ---------- Condições abordadas (lista pedida pela Dra. Carine) ---------- */
+export function ConditionsList({ lang, dict, showCta = true, headingLevel = 'h2' }) {
+  const c = dict.conditions;
+  const H = headingLevel;
+  return (
+    <section className="conditions" aria-labelledby="conditions-title">
+      <div className="wrap">
+        <div className="grid">
+          <Reveal className="c-4">
+            <span className="kicker">{c.kicker}</span>
+            <H id="conditions-title" className="d-m">{c.title}</H>
+            <p className="body" style={{ marginTop: 'var(--s-md)' }}>{c.lead}</p>
+          </Reveal>
+          <Reveal className="c-7 start-6" delay={90}>
+            <ul className="cond-list">
+              {c.items.map((i) =>
+                <li key={i.t}>
+                  {i.slug
+                    ? <Link href={langHref(lang, `/condicoes/${i.slug}`)}>{i.t}</Link>
+                    : <span>{i.t}</span>}
+                </li>
+              )}
+            </ul>
+            <p className="cap" style={{ marginTop: 'var(--s-lg)' }}>{c.note}</p>
+            {showCta && (
+              <p style={{ marginTop: 'var(--s-lg)' }}>
+                <Link className="link-arrow" href={langHref(lang, '/condicoes')}>{c.cta}</Link>
+              </p>
+            )}
+          </Reveal>
+        </div>
       </div>
     </section>
   );

@@ -21,6 +21,8 @@ export default function AppFooter({ lang, dict }) {
   const clinic = [
     { label: dict.nav.approach, href: '/abordagem' },
     { label: dict.nav.about, href: '/sobre' },
+    { label: dict.nav.conditions, href: '/condicoes' },
+    { label: dict.nav.talks, href: '/palestras' },
     { label: dict.nav.content, href: '/blog' },
     { label: dict.nav.contact, href: '/contato' }
   ];
@@ -73,7 +75,7 @@ export default function AppFooter({ lang, dict }) {
         </div>
 
         <div className="ftr-legal">
-          <p>© {new Date().getFullYear()} Carine Petry · {f.rights}</p>
+          <p>© {new Date().getFullYear()} Dra. Carine Petry · {f.rights}</p>
           <div className="ftr-legal-right">
             <Link href={langHref(lang, '/privacidade')}>{f.privacy}</Link>
             <Link href={langHref(lang, '/termos')}>{f.terms}</Link>

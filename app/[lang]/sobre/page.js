@@ -82,7 +82,7 @@ export default function Sobre({ params }) {
         </section>
 
         {/* Formação em timeline */}
-        <section aria-labelledby="formation-title">
+        <section id="formacao" aria-labelledby="formation-title">
           <div className="wrap">
             <div className="grid">
               <div className="c-4">

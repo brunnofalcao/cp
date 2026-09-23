@@ -2,12 +2,12 @@
   "sam": {
     "slug": "sam",
     "condition": "Mast Cell Activation Syndrome",
-    "title": "Mast Cell Activation Syndrome (MCAS) — clinical investigation",
+    "title": "Mast Cell Activation Syndrome (MCAS): clinical investigation",
     "metaDesc": "Reactions involving several body systems without changes on allergy testing. Clinical investigation of MCAS against current criteria. Carine Petry, CRM-DF 15342.",
     "keywords": ["mast cell activation syndrome", "MCAS investigation", "serum tryptase", "mast cell mediators", "MCAS criteria"],
     "kicker": "Area of practice",
     "h1": "When the reaction crosses several systems at once.",
-    "sub": "Mast Cell Activation Syndrome involves the inappropriate release of mediators by immune cells present in virtually every tissue. The picture presents in more than one system simultaneously — and that simultaneity is what guides the investigation.",
+    "sub": "Mast Cell Activation Syndrome involves the inappropriate release of mediators by immune cells present in virtually every tissue. The picture presents in more than one system simultaneously, and that simultaneity is what guides the investigation.",
     "summaryTitle": "What it is",
     "summary": "Mast cells are immune cells distributed across skin, digestive tract, vessels, lungs and nervous system. They carry mediators such as histamine, tryptase and prostaglandins, released in defensive situations. In MCAS this release occurs disproportionately and without a corresponding threat, producing symptoms across multiple systems.",
     "systems": [
@@ -33,7 +33,7 @@
     ],
     "limitsTitle": "Criteria and limitations",
     "limits": [
-      "Outside an episode, mediators tend to return to usual values — the timing of collection is decisive and cannot always be captured.",
+      "Outside an episode, mediators tend to return to usual values. The timing of collection is decisive and cannot always be captured.",
       "The presence of consistent symptoms does not establish the diagnosis. All three criteria must be assessed together, with exclusion of other causes.",
       "Therapeutic response forms part of diagnostic reasoning and is assessed over follow-up, not in a single consultation."
     ],
@@ -48,14 +48,14 @@
   "sed": {
     "slug": "sed",
     "condition": "Ehlers-Danlos Syndrome",
-    "title": "Ehlers-Danlos Syndrome (EDS) and hypermobility — clinical assessment",
+    "title": "Ehlers-Danlos Syndrome (EDS) and hypermobility: clinical assessment",
     "metaDesc": "Hypermobility with chronic pain, dislocations and fatigue. Assessment against current international criteria. Carine Petry, CRM-DF 15342, Brasília, Brazil.",
     "keywords": ["ehlers-danlos syndrome", "joint hypermobility", "hEDS criteria", "Beighton score", "connective tissue"],
     "kicker": "Area of practice",
     "h1": "Hypermobility accompanied by symptoms calls for structured assessment.",
     "sub": "Ehlers-Danlos Syndrome comprises hereditary connective tissue conditions with joint, cutaneous and systemic repercussions. The hypermobile subtype is assessed clinically, against current international criteria.",
     "summaryTitle": "What it is",
-    "summary": "Connective tissue supports joints, skin, vessels and organs. Alterations in collagen change the balance between firmness and elasticity in these tissues. In the hypermobile subtype — the most frequent — the presentation combines joint hypermobility, musculoskeletal pain and associated systemic manifestations.",
+    "summary": "Connective tissue supports joints, skin, vessels and organs. Alterations in collagen change the balance between firmness and elasticity in these tissues. In the hypermobile subtype, the most frequent, the presentation combines joint hypermobility, musculoskeletal pain and associated systemic manifestations.",
     "systems": [
       { "name": "Joints", "items": ["Range of movement beyond the usual", "Recurrent dislocations and subluxations", "Sprains with minimal trauma", "Diffuse musculoskeletal pain"] },
       { "name": "Skin", "items": ["Soft or velvety skin", "Atypical scarring", "Tissue fragility"] },
@@ -95,7 +95,7 @@
   "covid-longa": {
     "slug": "covid-longa",
     "condition": "Long COVID",
-    "title": "Long COVID — investigating persistent symptoms",
+    "title": "Long COVID: investigating persistent symptoms",
     "metaDesc": "Persistent fatigue, cognitive changes and exercise intolerance after COVID-19. Multisystem investigation. Carine Petry, CRM-DF 15342, Brasília, Brazil.",
     "keywords": ["long covid", "persistent covid symptoms", "post-covid syndrome", "post-exertional malaise", "post-covid fatigue"],
     "kicker": "Area of practice",
@@ -133,7 +133,7 @@
     ],
     "faq": [
       { "q": "Is Long COVID psychological in origin?", "a": "No. The condition is recognized by the World Health Organization and has a pathophysiological basis under active investigation: immune dysfunction, persistent inflammation, autonomic dysregulation and microvascular changes are among the mechanisms studied." },
-      { "q": "How long does the condition last?", "a": "The course varies considerably between patients. Identifying the specific mechanisms present in a given case — such as autonomic dysregulation, mast cell activation or a sleep disorder — guides conduct and may influence the trajectory." },
+      { "q": "How long does the condition last?", "a": "The course varies considerably between patients. Identifying the specific mechanisms present in a given case, such as autonomic dysregulation, mast cell activation or a sleep disorder, guides conduct and may influence the trajectory." },
       { "q": "What is post-exertional malaise?", "a": "Worsening of symptoms after physical or mental activity, frequently delayed by hours or a day. It is a relevant element of assessment because it directly alters conduct." },
       { "q": "What should I record before the consultation?", "a": "The date of infection and when each symptom appeared, what aggravates and relieves them, sleep and energy patterns across the day and, if possible, heart rate lying down and after 2, 5 and 10 minutes standing." }
     ]
@@ -142,14 +142,14 @@
   "medicina-do-sono": {
     "slug": "medicina-do-sono",
     "condition": "Sleep Medicine",
-    "title": "Sleep Medicine — investigating non-restorative sleep",
+    "title": "Sleep Medicine: investigating non-restorative sleep",
     "metaDesc": "Non-restorative sleep, apnea, chronic insomnia and excessive sleepiness. Assessment with a Sleep Medicine specialist. Carine Petry, RQE 16243, Brasília, Brazil.",
     "keywords": ["sleep medicine", "non-restorative sleep", "sleep apnea", "chronic insomnia", "polysomnography"],
     "kicker": "Area of practice",
     "h1": "Sleep is a structural axis, not a detail of the picture.",
     "sub": "Assessment of sleep architecture and quality frequently reorganizes the understanding of fatigue, chronic pain and cognitive changes.",
     "summaryTitle": "What it is",
-    "summary": "Restorative sleep depends on architecture: organized cycles with enough continuity for memory consolidation, immune and hormonal regulation and cerebral metabolic clearance to occur. When that continuity is interrupted — by respiratory events, movements, pain or autonomic arousals — sleep duration no longer corresponds to the rest obtained.",
+    "summary": "Restorative sleep depends on architecture: organized cycles with enough continuity for memory consolidation, immune and hormonal regulation and cerebral metabolic clearance to occur. When that continuity is interrupted by respiratory events, movements, pain or autonomic arousals, sleep duration no longer corresponds to the rest obtained.",
     "systems": [
       { "name": "Nocturnal respiratory", "items": ["Snoring with observed pauses", "Waking with a choking sensation", "Restless sleep"] },
       { "name": "Daytime", "items": ["Excessive sleepiness", "Morning headache", "Difficulty concentrating", "Reduced performance"] },
@@ -179,8 +179,8 @@
     ],
     "faq": [
       { "q": "When is polysomnography indicated?", "a": "In the presence of clinical suspicion of a sleep disorder: persistent non-restorative sleep, snoring with breathing pauses, excessive daytime sleepiness, or when fatigue, cognitive change or chronic pain requires objective assessment of sleep quality." },
-      { "q": "Does apnea only occur in men who snore?", "a": "No. Presentation in women is frequently different — insomnia, fatigue, morning headache and mood changes — often without prominent snoring, which contributes to underdiagnosis." },
-      { "q": "Does sleep hygiene resolve chronic insomnia?", "a": "Not always. Sleep hygiene is a necessary foundation, but chronic insomnia frequently involves other factors — respiratory events, pain, autonomic dysregulation, medications, circadian rhythm — that require specific investigation." },
+      { "q": "Does apnea only occur in men who snore?", "a": "No. Presentation in women is frequently different (insomnia, fatigue, morning headache and mood changes), often without prominent snoring, which contributes to underdiagnosis." },
+      { "q": "Does sleep hygiene resolve chronic insomnia?", "a": "Not always. Sleep hygiene is a necessary foundation, but chronic insomnia frequently involves other factors (respiratory events, pain, autonomic dysregulation, medications, circadian rhythm) that require specific investigation." },
       { "q": "What should I bring to the consultation?", "a": "A record of bedtimes and wake times over recent weeks, a bed partner's report on snoring and pauses, a list of medications in use and previous test results. Wearable device data, where available, is also useful." }
     ]
   }

@@ -83,7 +83,7 @@ export default function Post({ params }) {
               <aside className="c-3">
                 <div style={{ borderTop: '1px solid var(--c-linha)', paddingTop: 'var(--s-md)' }}>
                   <p className="kicker quiet" style={{ marginBottom: 'var(--s-2xs)' }}>{dict.articles.authorLabel}</p>
-                  <p className="sm">Carine Petry</p>
+                  <p className="sm">{lang === 'en' ? 'Dr. Carine Petry' : 'Dra. Carine Petry'}</p>
                   <p className="cap">CRM-DF 15342</p>
 
                   <p className="cap" style={{ marginTop: 'var(--s-lg)' }}>

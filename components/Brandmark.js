@@ -17,7 +17,7 @@ export default function Brandmark({ variant = 'header', lang = 'pt', dict }) {
   return (
     <Link href={langHref(lang, '/')} className={`brandmark brandmark-${variant}`} aria-label="Carine Petry">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img className="brand-logo" src={src} alt="Carine Petry" />
+      <img className="brand-logo" src={src} alt="Dra. Carine Petry" />
     </Link>
   );
 }

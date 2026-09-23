@@ -4,6 +4,8 @@
     "approach": "Abordagem",
     "areas": "Áreas de atuação",
     "about": "Sobre",
+    "conditions": "Condições abordadas",
+    "talks": "Palestras",
     "content": "Conteúdo",
     "contact": "Contato"
   },
@@ -20,20 +22,61 @@
 
   "hero": {
     "kicker": "Investigação clínica de alta complexidade",
-    "title": "Clareza clínica para quadros que não cabem em respostas simples.",
-    "lead": "Uma abordagem médica aprofundada para compreender sintomas que aparecem em vários sistemas ao mesmo tempo, integrar evidências e construir um direcionamento individualizado.",
+    "title": "Quando os sintomas parecem desconectados, é preciso enxergar o organismo por inteiro.",
+    "lead": "Uma investigação médica aprofundada para compreender sintomas que afetam diferentes sistemas, identificar possíveis gatilhos e construir um plano de cuidado individualizado.",
     "ctaPrimary": "Solicitar informações sobre a consulta",
     "ctaSecondary": "Conhecer a abordagem",
-    "credentials": "Carine Petry · CRM-DF 15342 · RQE 16243 / 12865 · Especialista em Medicina do Sono"
+    "credentials": "Dra. Carine Petry · CRM-DF 15342 · RQE 16243 · RQE 12865",
+    "cvLink": "Formação e currículo"
   },
 
   "credrail": {
     "items": [
-      { "k": "Registro", "v": "CRM-DF 15342" },
-      { "k": "Especialidade registrada", "v": "Medicina do Sono · RQE 16243" },
-      { "k": "Eixos de investigação", "v": "SAM · SED · Covid Longa · Sono" },
+      { "k": "Médica", "v": "Dra. Carine Petry" },
+      { "k": "CRM", "v": "CRM-DF 15342" },
+      { "k": "RQE", "v": "16243 · 12865" },
       { "k": "Consultório", "v": "Brasília, Distrito Federal" }
     ]
+  },
+
+  "conditions": {
+    "kicker": "Condições abordadas",
+    "title": "Condições abordadas.",
+    "lead": "Quadros que frequentemente se sobrepõem no mesmo paciente e que, por isso, são avaliados em conjunto.",
+    "cta": "Ver todas as condições",
+    "note": "A relação tem caráter informativo. A indicação de investigação é definida em consulta, a partir da história clínica.",
+    "items": [
+      { "t": "Síndrome de Ativação de Mastócitos (SAM)", "slug": "sam" },
+      { "t": "Intolerância à histamina" },
+      { "t": "Transtorno da hipermobilidade articular e Síndrome de Ehlers-Danlos", "slug": "sed" },
+      { "t": "Disautonomia" },
+      { "t": "Covid longa", "slug": "covid-longa" },
+      { "t": "Infecções crônicas (EBV, Lyme, Bartonella)" },
+      { "t": "Disbiose" },
+      { "t": "Toxicidade do mofo" },
+      { "t": "Longevidade saudável" },
+      { "t": "Distúrbios do sono", "slug": "medicina-do-sono" },
+      { "t": "Zumbido" }
+    ]
+  },
+
+  "talks": {
+    "kicker": "Palestras",
+    "title": "Palestras e aulas.",
+    "lead": "A Dra. Carine Petry participa de congressos, aulas e eventos para profissionais da saúde e para o público, levando ciência clara sobre quadros multissistêmicos.",
+    "themesTitle": "Temas",
+    "themes": [
+      { "t": "Síndrome de Ativação de Mastócitos na prática clínica", "d": "Reconhecimento, critérios e armadilhas diagnósticas." },
+      { "t": "Hipermobilidade, Ehlers-Danlos e disautonomia", "d": "A relação entre tecido conjuntivo, sistema autonômico e sintomas multissistêmicos." },
+      { "t": "Covid longa e infecções crônicas", "d": "O que a evidência mostra sobre sintomas persistentes." },
+      { "t": "Sono como eixo da investigação clínica", "d": "Por que o sono reorganiza a compreensão de quadros complexos." }
+    ],
+    "formatsTitle": "Formatos",
+    "formats": "Congressos, jornadas científicas, aulas para profissionais da saúde, eventos corporativos e conteúdo para o público.",
+    "pending": "CONTENT_REQUIRED: histórico de palestras e eventos (nome, local e ano) para publicação nesta página.",
+    "ctaTitle": "Convite para palestra",
+    "ctaLead": "Para convites, envie os detalhes do evento: data, local, público e tema desejado.",
+    "cta": "Enviar convite pelo WhatsApp"
   },
 
   "manifesto": {
@@ -51,7 +94,7 @@
     "kicker": "A médica",
     "title": "Uma prática dedicada a quadros multissistêmicos e subdiagnosticados.",
     "body": [
-      "Carine Petry é médica, especialista em Medicina do Sono, com atuação dedicada à investigação clínica de condições raras e frequentemente subdiagnosticadas: Síndrome de Ativação de Mastócitos (SAM), Síndrome de Ehlers-Danlos (SED) e as repercussões persistentes da Covid-19.",
+      "Dra. Carine Petry é médica, com atuação dedicada à investigação clínica de condições complexas e frequentemente subdiagnosticadas, como a Síndrome de Ativação de Mastócitos (SAM), a Síndrome de Ehlers-Danlos (SED), a disautonomia e as repercussões persistentes da Covid-19.",
       "A prática se organiza em torno de três compromissos: anamnese detalhada o bastante para reconstruir a trajetória do sintoma, correlação entre sistemas antes de qualquer conclusão, e transparência sobre os limites do que se pode afirmar. Nada de promessa que a medicina não pode sustentar."
     ],
     "philosophyLabel": "Filosofia clínica",
@@ -111,8 +154,8 @@
     "lead": "Formação, produção e participação verificáveis. Nada nesta seção é publicado sem comprovação documental.",
     "pending": "CONTENT_REQUIRED: publicações, participações em congressos, aulas e vínculos associativos aguardando envio de comprovação. Ver docs/CONTENT_REQUIRED.md.",
     "items": [
-      { "label": "Registro profissional", "d": "CRM-DF 15342. Registro de Qualificação de Especialista 16243 e 12865." },
-      { "label": "Especialidade registrada", "d": "Medicina do Sono, com atuação em investigação clínica de quadros multissistêmicos." },
+      { "label": "Registro profissional", "d": "CRM-DF 15342. RQE 16243 e RQE 12865." },
+      { "label": "Atuação", "d": "Investigação clínica de quadros multissistêmicos e condições frequentemente subdiagnosticadas." },
       { "label": "Base de conduta", "d": "Critérios diagnósticos internacionais vigentes para as condições investigadas, com revisão contínua da literatura." }
     ]
   },
@@ -191,7 +234,7 @@
     "sending": "Enviando",
     "success": "Assinatura confirmada. Você receberá o próximo boletim.",
     "error": "Não foi possível concluir a assinatura. Tente novamente.",
-    "consent": "Ao assinar, você concorda em receber e-mails de Carine Petry. É possível cancelar quando quiser.",
+    "consent": "Ao assinar, você concorda em receber e-mails da Dra. Carine Petry. É possível cancelar quando quiser.",
     "errName": "Informe seu nome.",
     "errEmail": "Informe um e-mail válido.",
     "errProfession": "Selecione uma opção."
@@ -249,7 +292,7 @@
 
   "footer": {
     "tagline": "Investigação clínica de alta complexidade para quadros multissistêmicos. Escuta, método e evidência, no tempo que a complexidade exige.",
-    "credentials": "Médica · CRM-DF 15342 · RQE 16243 / 12865 · Especialista em Medicina do Sono",
+    "credentials": "Dra. Carine Petry · CRM-DF 15342 · RQE 16243 · RQE 12865",
     "socialLabel": "Redes sociais",
     "clinicTitle": "Consultório",
     "navTitle": "Navegação",

@@ -4,6 +4,8 @@
     "approach": "Approach",
     "areas": "Areas of practice",
     "about": "About",
+    "conditions": "Conditions",
+    "talks": "Talks",
     "content": "Writing",
     "contact": "Contact"
   },
@@ -20,20 +22,61 @@
 
   "hero": {
     "kicker": "High-complexity clinical investigation",
-    "title": "Clinical clarity for presentations that resist simple answers.",
-    "lead": "An in-depth medical approach to understanding symptoms that appear across several systems at once, integrating evidence and building individualized direction.",
+    "title": "When symptoms seem disconnected, the whole organism needs to be seen.",
+    "lead": "An in-depth medical investigation to understand symptoms that affect different systems, identify possible triggers and build an individualized care plan.",
     "ctaPrimary": "Request information about the consultation",
     "ctaSecondary": "See the approach",
-    "credentials": "Carine Petry · CRM-DF 15342 · RQE 16243 / 12865 · Sleep Medicine specialist"
+    "credentials": "Dr. Carine Petry · CRM-DF 15342 · RQE 16243 · RQE 12865",
+    "cvLink": "Training and CV"
   },
 
   "credrail": {
     "items": [
+      { "k": "Physician", "v": "Dr. Carine Petry" },
       { "k": "Licence", "v": "CRM-DF 15342 (Brazil)" },
-      { "k": "Registered specialty", "v": "Sleep Medicine · RQE 16243" },
-      { "k": "Areas of investigation", "v": "MCAS · EDS · Long COVID · Sleep" },
+      { "k": "RQE", "v": "16243 · 12865" },
       { "k": "Practice", "v": "Brasília, Federal District" }
     ]
+  },
+
+  "conditions": {
+    "kicker": "Conditions",
+    "title": "Conditions addressed.",
+    "lead": "Presentations that frequently overlap in the same patient and are therefore assessed together.",
+    "cta": "See all conditions",
+    "note": "This list is informational. Whether an investigation is indicated is defined in consultation, based on the clinical history.",
+    "items": [
+      { "t": "Mast Cell Activation Syndrome (MCAS)", "slug": "sam" },
+      { "t": "Histamine intolerance" },
+      { "t": "Hypermobility spectrum disorder and Ehlers-Danlos Syndrome", "slug": "sed" },
+      { "t": "Dysautonomia" },
+      { "t": "Long COVID", "slug": "covid-longa" },
+      { "t": "Chronic infections (EBV, Lyme, Bartonella)" },
+      { "t": "Dysbiosis" },
+      { "t": "Mold toxicity" },
+      { "t": "Healthy longevity" },
+      { "t": "Sleep disorders", "slug": "medicina-do-sono" },
+      { "t": "Tinnitus" }
+    ]
+  },
+
+  "talks": {
+    "kicker": "Talks",
+    "title": "Talks and lectures.",
+    "lead": "Dr. Carine Petry takes part in congresses, lectures and events for health professionals and the public, bringing clear science on multisystem presentations.",
+    "themesTitle": "Topics",
+    "themes": [
+      { "t": "Mast Cell Activation Syndrome in clinical practice", "d": "Recognition, criteria and diagnostic pitfalls." },
+      { "t": "Hypermobility, Ehlers-Danlos and dysautonomia", "d": "How connective tissue, the autonomic system and multisystem symptoms relate." },
+      { "t": "Long COVID and chronic infections", "d": "What the evidence shows about persistent symptoms." },
+      { "t": "Sleep as an axis of clinical investigation", "d": "Why sleep reorganizes the understanding of complex presentations." }
+    ],
+    "formatsTitle": "Formats",
+    "formats": "Congresses, scientific meetings, lectures for health professionals, corporate events and content for the public.",
+    "pending": "CONTENT_REQUIRED: history of talks and events (name, place and year) to publish on this page.",
+    "ctaTitle": "Speaking invitation",
+    "ctaLead": "For invitations, send the event details: date, place, audience and desired topic.",
+    "cta": "Send invitation via WhatsApp"
   },
 
   "manifesto": {
@@ -51,7 +94,7 @@
     "kicker": "The physician",
     "title": "A practice dedicated to multisystem and underdiagnosed presentations.",
     "body": [
-      "Carine Petry is a physician and Sleep Medicine specialist whose practice is dedicated to the clinical investigation of rare and frequently underdiagnosed conditions: Mast Cell Activation Syndrome (MCAS), Ehlers-Danlos Syndrome (EDS) and the persistent effects of COVID-19.",
+      "Dr. Carine Petry is a physician whose practice is dedicated to the clinical investigation of complex and frequently underdiagnosed conditions, such as Mast Cell Activation Syndrome (MCAS), Ehlers-Danlos Syndrome (EDS), dysautonomia and the persistent effects of COVID-19.",
       "The practice is organized around three commitments: a clinical history detailed enough to reconstruct the trajectory of the symptom, correlation across systems before any conclusion, and transparency about the limits of what can be asserted. No promise medicine cannot keep."
     ],
     "philosophyLabel": "Clinical philosophy",
@@ -111,8 +154,8 @@
     "lead": "Verifiable training, output and participation. Nothing in this section is published without documentary evidence.",
     "pending": "CONTENT_REQUIRED: publications, conference participation, teaching and professional affiliations awaiting supporting documentation. See docs/CONTENT_REQUIRED.md.",
     "items": [
-      { "label": "Professional registration", "d": "CRM-DF 15342. Specialist Qualification Registry 16243 and 12865 (Brazil)." },
-      { "label": "Registered specialty", "d": "Sleep Medicine, with practice in the clinical investigation of multisystem presentations." },
+      { "label": "Professional registration", "d": "CRM-DF 15342. RQE 16243 and RQE 12865 (Brazil)." },
+      { "label": "Practice", "d": "Clinical investigation of multisystem presentations and frequently underdiagnosed conditions." },
       { "label": "Basis of conduct", "d": "Current international diagnostic criteria for the conditions investigated, with continuous review of the literature." }
     ]
   },
@@ -191,7 +234,7 @@
     "sending": "Sending",
     "success": "Subscription confirmed. You will receive the next issue.",
     "error": "The subscription could not be completed. Please try again.",
-    "consent": "By subscribing, you agree to receive emails from Carine Petry. You can unsubscribe anytime.",
+    "consent": "By subscribing, you agree to receive emails from Dr. Carine Petry. You can unsubscribe anytime.",
     "errName": "Please enter your name.",
     "errEmail": "Please enter a valid email address.",
     "errProfession": "Please select an option."
@@ -249,7 +292,7 @@
 
   "footer": {
     "tagline": "High-complexity clinical investigation for multisystem presentations. Listening, method and evidence, in the time complexity requires.",
-    "credentials": "Physician · CRM-DF 15342 · RQE 16243 / 12865 · Sleep Medicine specialist",
+    "credentials": "Dr. Carine Petry · CRM-DF 15342 · RQE 16243 · RQE 12865",
     "socialLabel": "Social media",
     "clinicTitle": "Practice",
     "navTitle": "Navigation",

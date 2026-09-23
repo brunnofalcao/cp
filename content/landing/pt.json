@@ -2,12 +2,12 @@
   "sam": {
     "slug": "sam",
     "condition": "Síndrome de Ativação de Mastócitos",
-    "title": "Síndrome de Ativação de Mastócitos (SAM) — investigação clínica",
+    "title": "Síndrome de Ativação de Mastócitos (SAM): investigação clínica",
     "metaDesc": "Reações envolvendo vários sistemas do corpo sem alteração em testes de alergia. Investigação clínica de SAM pelos critérios vigentes. Carine Petry, CRM-DF 15342.",
     "keywords": ["síndrome de ativação de mastócitos", "SAM investigação", "MCAS Brasil", "triptase sérica", "mediadores mastocitários"],
     "kicker": "Área de atuação",
     "h1": "Quando a reação atravessa vários sistemas ao mesmo tempo.",
-    "sub": "A Síndrome de Ativação de Mastócitos envolve a liberação inadequada de mediadores por células de defesa presentes em praticamente todos os tecidos. O quadro se apresenta em mais de um sistema simultaneamente — e é essa simultaneidade que orienta a investigação.",
+    "sub": "A Síndrome de Ativação de Mastócitos envolve a liberação inadequada de mediadores por células de defesa presentes em praticamente todos os tecidos. O quadro se apresenta em mais de um sistema simultaneamente, e é essa simultaneidade que orienta a investigação.",
     "summaryTitle": "O que é",
     "summary": "Mastócitos são células do sistema imune distribuídas por pele, trato digestivo, vasos, pulmões e sistema nervoso. Carregam mediadores como histamina, triptase e prostaglandinas, liberados em situações de defesa. Na SAM, essa liberação ocorre de forma desproporcional e sem ameaça correspondente, produzindo sintomas em múltiplos sistemas.",
     "systems": [
@@ -33,7 +33,7 @@
     ],
     "limitsTitle": "Critérios e limitações",
     "limits": [
-      "Fora do período de crise, os mediadores tendem a retornar a valores habituais — o momento da coleta é determinante e nem sempre é possível capturá-lo.",
+      "Fora do período de crise, os mediadores tendem a retornar a valores habituais. O momento da coleta é determinante e nem sempre é possível capturá-lo.",
       "A presença de sintomas compatíveis não estabelece o diagnóstico. Os três critérios precisam ser avaliados em conjunto, com exclusão de outras causas.",
       "A resposta terapêutica compõe o raciocínio diagnóstico e é avaliada ao longo do acompanhamento, não em consulta única."
     ],
@@ -48,14 +48,14 @@
   "sed": {
     "slug": "sed",
     "condition": "Síndrome de Ehlers-Danlos",
-    "title": "Síndrome de Ehlers-Danlos (SED) e hipermobilidade — avaliação clínica",
+    "title": "Síndrome de Ehlers-Danlos (SED) e hipermobilidade: avaliação clínica",
     "metaDesc": "Hipermobilidade com dor crônica, luxações e fadiga. Avaliação pelos critérios internacionais vigentes. Carine Petry, CRM-DF 15342, Brasília-DF.",
     "keywords": ["síndrome de ehlers-danlos", "hipermobilidade articular", "hEDS critérios", "escala de Beighton", "tecido conjuntivo"],
     "kicker": "Área de atuação",
     "h1": "Hipermobilidade acompanhada de sintomas pede avaliação estruturada.",
     "sub": "A Síndrome de Ehlers-Danlos reúne condições hereditárias do tecido conjuntivo com repercussão articular, cutânea e sistêmica. O subtipo hipermóvel é avaliado clinicamente, pelos critérios internacionais vigentes.",
     "summaryTitle": "O que é",
-    "summary": "O tecido conjuntivo dá sustentação a articulações, pele, vasos e órgãos. Alterações no colágeno modificam o equilíbrio entre firmeza e elasticidade desses tecidos. No subtipo hipermóvel — o mais frequente — a apresentação combina hipermobilidade articular, dor musculoesquelética e manifestações sistêmicas associadas.",
+    "summary": "O tecido conjuntivo dá sustentação a articulações, pele, vasos e órgãos. Alterações no colágeno modificam o equilíbrio entre firmeza e elasticidade desses tecidos. No subtipo hipermóvel, o mais frequente, a apresentação combina hipermobilidade articular, dor musculoesquelética e manifestações sistêmicas associadas.",
     "systems": [
       { "name": "Articular", "items": ["Amplitude de movimento além do habitual", "Luxações e subluxações recorrentes", "Entorses com trauma mínimo", "Dor musculoesquelética difusa"] },
       { "name": "Cutâneo", "items": ["Pele macia ou aveludada", "Cicatrização atípica", "Fragilidade tecidual"] },
@@ -95,7 +95,7 @@
   "covid-longa": {
     "slug": "covid-longa",
     "condition": "Covid Longa",
-    "title": "Covid Longa — investigação de sintomas persistentes",
+    "title": "Covid Longa: investigação de sintomas persistentes",
     "metaDesc": "Fadiga persistente, alterações cognitivas e intolerância ao esforço após a Covid-19. Investigação multissistêmica. Carine Petry, CRM-DF 15342, Brasília-DF.",
     "keywords": ["covid longa", "sintomas persistentes covid", "síndrome pós-covid", "mal-estar pós-esforço", "fadiga pós-covid"],
     "kicker": "Área de atuação",
@@ -133,7 +133,7 @@
     ],
     "faq": [
       { "q": "A Covid Longa é de origem psicológica?", "a": "Não. A condição é reconhecida pela Organização Mundial da Saúde e possui base fisiopatológica em investigação ativa: disfunção imune, inflamação persistente, desregulação autonômica e alterações microvasculares estão entre os mecanismos estudados." },
-      { "q": "Quanto tempo a condição dura?", "a": "A evolução varia consideravelmente entre pacientes. A identificação de mecanismos específicos presentes no caso — como desregulação autonômica, ativação mastocitária ou distúrbio do sono — orienta a conduta e pode influenciar a trajetória." },
+      { "q": "Quanto tempo a condição dura?", "a": "A evolução varia consideravelmente entre pacientes. A identificação de mecanismos específicos presentes no caso, como desregulação autonômica, ativação mastocitária ou distúrbio do sono, orienta a conduta e pode influenciar a trajetória." },
       { "q": "O que é mal-estar pós-esforço?", "a": "É a piora dos sintomas após atividade física ou mental, frequentemente com atraso de horas ou de um dia. É um elemento relevante da avaliação porque altera diretamente a conduta." },
       { "q": "O que registrar antes da consulta?", "a": "A data da infecção e o surgimento de cada sintoma, o que agrava e o que alivia, o padrão de sono e energia ao longo do dia e, se possível, a frequência cardíaca em decúbito e após 2, 5 e 10 minutos em pé." }
     ]
@@ -142,14 +142,14 @@
   "medicina-do-sono": {
     "slug": "medicina-do-sono",
     "condition": "Medicina do Sono",
-    "title": "Medicina do Sono — investigação de sono não reparador",
+    "title": "Medicina do Sono: investigação de sono não reparador",
     "metaDesc": "Sono não reparador, apneia, insônia crônica e sonolência excessiva. Avaliação com especialista em Medicina do Sono. Carine Petry, RQE 16243, Brasília-DF.",
     "keywords": ["medicina do sono", "sono não reparador", "apneia do sono", "insônia crônica", "polissonografia"],
     "kicker": "Área de atuação",
     "h1": "O sono é um eixo estrutural, não um detalhe do quadro.",
     "sub": "A avaliação da arquitetura e da qualidade do sono frequentemente reorganiza a compreensão de quadros de fadiga, dor crônica e alterações cognitivas.",
     "summaryTitle": "O que é",
-    "summary": "O sono reparador depende de arquitetura: ciclos organizados e com continuidade suficiente para que ocorram consolidação de memória, regulação imune e hormonal e depuração metabólica cerebral. Quando essa continuidade é interrompida — por eventos respiratórios, movimentos, dor ou despertares autonômicos — o tempo de sono deixa de corresponder ao descanso obtido.",
+    "summary": "O sono reparador depende de arquitetura: ciclos organizados e com continuidade suficiente para que ocorram consolidação de memória, regulação imune e hormonal e depuração metabólica cerebral. Quando essa continuidade é interrompida por eventos respiratórios, movimentos, dor ou despertares autonômicos, o tempo de sono deixa de corresponder ao descanso obtido.",
     "systems": [
       { "name": "Respiratório noturno", "items": ["Ronco com pausas observadas", "Despertar com sensação de engasgo", "Sono agitado"] },
       { "name": "Diurno", "items": ["Sonolência excessiva", "Cefaleia matinal", "Dificuldade de concentração", "Queda de desempenho"] },
@@ -179,8 +179,8 @@
     ],
     "faq": [
       { "q": "Quando a polissonografia é indicada?", "a": "Diante de suspeita clínica de distúrbio do sono: sono não reparador persistente, ronco com pausas respiratórias, sonolência excessiva diurna, ou quando um quadro de fadiga, alteração cognitiva ou dor crônica requer avaliação objetiva da qualidade do sono." },
-      { "q": "A apneia ocorre apenas em homens que roncam?", "a": "Não. A apresentação em mulheres é frequentemente diferente — insônia, fadiga, cefaleia matinal e alterações de humor —, muitas vezes sem ronco proeminente, o que contribui para o subdiagnóstico." },
-      { "q": "Higiene do sono resolve insônia crônica?", "a": "Nem sempre. A higiene do sono é uma base necessária, mas a insônia crônica frequentemente envolve outros fatores — eventos respiratórios, dor, desregulação autonômica, medicações, ritmo circadiano — que precisam ser investigados especificamente." },
+      { "q": "A apneia ocorre apenas em homens que roncam?", "a": "Não. A apresentação em mulheres é frequentemente diferente (insônia, fadiga, cefaleia matinal e alterações de humor), muitas vezes sem ronco proeminente, o que contribui para o subdiagnóstico." },
+      { "q": "Higiene do sono resolve insônia crônica?", "a": "Nem sempre. A higiene do sono é uma base necessária, mas a insônia crônica frequentemente envolve outros fatores (eventos respiratórios, dor, desregulação autonômica, medicações, ritmo circadiano) que precisam ser investigados especificamente." },
       { "q": "O que levar para a consulta?", "a": "Registro de horários de dormir e acordar das últimas semanas, relato de quem divide o quarto sobre ronco e pausas, relação de medicações em uso e exames anteriores. Dados de dispositivos vestíveis, quando houver, também são úteis." }
     ]
   }

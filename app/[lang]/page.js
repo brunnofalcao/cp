@@ -8,8 +8,8 @@ const T = {
     title: 'Em breve',
     lead: 'Um novo espaço para a medicina que escuta, integra e investiga.',
     sub: 'Enquanto cada detalhe é preparado, você já pode acompanhar por aqui.',
-    cred: 'Dra. Carine Petry · CRM-DF 15342 · Medicina do Sono · Brasília',
-    metaTitle: 'Carine Petry | Em breve',
+    cred: 'Dra. Carine Petry · CRM-DF 15342 · RQE 16243 · RQE 12865 · Brasília',
+    metaTitle: 'Dra. Carine Petry | Em breve',
     metaDesc:
       'Em breve, um novo espaço dedicado à investigação clínica de quadros multissistêmicos e condições frequentemente subdiagnosticadas. Medicina do Sono em Brasília.'
   },
@@ -18,8 +18,8 @@ const T = {
     title: 'Coming soon',
     lead: 'A new space for medicine that listens, integrates and investigates.',
     sub: 'While every detail is being prepared, you can already follow along here.',
-    cred: 'Carine Petry, MD · CRM-DF 15342 · Sleep Medicine · Brasília, Brazil',
-    metaTitle: 'Carine Petry | Coming soon',
+    cred: 'Dr. Carine Petry · CRM-DF 15342 · RQE 16243 · RQE 12865 · Brasília, Brazil',
+    metaTitle: 'Dr. Carine Petry | Coming soon',
     metaDesc:
       'Coming soon, a new space dedicated to the clinical investigation of multisystem and frequently underdiagnosed conditions. Sleep Medicine in Brasília, Brazil.'
   }
@@ -51,7 +51,7 @@ export default function ComingSoon({ params }) {
     <main id="main" className="soon">
       <div className="soon-inner">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="soon-logo" src={SITE.logo.negativo} alt="Carine Petry" />
+        <img className="soon-logo" src={SITE.logo.negativo} alt="Dra. Carine Petry" />
         <span className="soon-kicker">{t.kicker}</span>
         <h1 className="soon-title">{t.title}</h1>
         <div className="soon-rule" aria-hidden="true" />
