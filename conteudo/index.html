@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conteúdo | Dra. Carine Petry</title>
+<meta name="description" content="Textos que explicam mecanismos e critérios sem simplificações que distorcem.">
+<meta name="theme-color" content="#241021">
+<link rel="canonical" href="https://carinepetry.com.br/conteudo/">
+<link rel="alternate" hreflang="pt-BR" href="https://carinepetry.com.br/conteudo/">
+<link rel="alternate" hreflang="en" href="https://carinepetry.com.br/en/conteudo/">
+<link rel="alternate" hreflang="x-default" href="https://carinepetry.com.br/conteudo/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dra. Carine Petry">
+<meta property="og:title" content="Conteúdo | Dra. Carine Petry">
+<meta property="og:description" content="Textos que explicam mecanismos e critérios sem simplificações que distorcem.">
+<meta property="og:url" content="https://carinepetry.com.br/conteudo/">
+<meta property="og:image" content="https://res.cloudinary.com/dlzrfhwin/image/upload/f_auto,q_auto:best,w_1200/v1776164492/WhatsApp_Image_2026-03-12_at_12.24.28_ardzoc.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<script>window.CP_PARAMS={"lang":"pt","base":"../","alt":{"pt":"../conteudo/","en":"../en/conteudo/"}};window.CP_ASSETS="../assets/";window.__resources={"./SiteHeader.dc.html":"../assets/SiteHeader.dc.html","./SiteFooter.dc.html":"../assets/SiteFooter.dc.html"};</script>
+<script src="../assets/support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&amp;family=Instrument+Sans:wght@400;500;600&amp;display=swap">
+<script src="../assets/cp-content.js"></script>
+<script src="../assets/cp-data.js"></script>
+<style>
+body{margin:0;background:#FBF7F4;color:#3A3532;font-family:var(--sans,'Instrument Sans'),-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,sans-serif;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#8E1348;text-decoration:none}
+a:hover{color:#B01755}
+button,input{font:inherit}
+::selection{background:#4A1942;color:#FBF7F4}
+</style>
+</helmet>
+<dc-import name="SiteHeader" current="" hint-size="100%,0px"></dc-import>
+<main>
+<section data-screen-label="01 Conteúdo, abertura" style="padding:clamp(128px,14vw,176px) 0 clamp(48px,6vw,72px)">
+  <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,4vw,48px)">
+    <p style="margin:0 0 24px;font-size:15px;font-weight:500;color:#8E1348">{{ a.kicker }}</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:32px 64px;align-items:end">
+      <h1 style="margin:0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(3rem,6vw,5.75rem);line-height:0.98;letter-spacing:-0.024em;color:#241021;text-wrap:balance">{{ a.title }}</h1>
+      <p style="margin:0;max-width:44ch;font-size:19px;line-height:1.6;text-wrap:pretty">{{ a.recentLead }}</p>
+    </div>
+    <div role="tablist" style="margin-top:48px;display:flex;flex-wrap:wrap;gap:8px">
+      <sc-for list="{{ cats }}" as="c" hint-placeholder-count="6">
+        <button role="tab" aria-selected="{{ c.active }}" onClick="{{ c.select }}" style="height:40px;padding:0 18px;border-radius:999px;border:1px solid {{ c.bd }};background:{{ c.bg }};color:{{ c.fg }};font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;transition:background .25s">{{ c.t }} <span style="opacity:0.55;margin-left:4px">{{ c.count }}</span></button>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="02 Destaque" style="padding:0 0 20px">
+  <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,4vw,48px)">
+    <a href="{{ lead.href }}" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));border-radius:32px;overflow:hidden;background:#241021;color:#C9B4BF;transition:transform .5s cubic-bezier(.22,1,.36,1)" style-hover="transform:translateY(-4px);color:#C9B4BF">
+      
+      <div style="padding:clamp(32px,4.5vw,64px);display:flex;flex-direction:column;justify-content:center">
+        <p style="margin:0;display:flex;flex-wrap:wrap;gap:12px;font-size:13px"><span style="color:#E7BCD0;font-weight:500">{{ lead.category }}</span><span>{{ lead.dateFmt }}</span><span>{{ lead.readingTime }} {{ a.readTime }}</span></p>
+        <h2 style="margin:18px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(2rem,3.4vw,3rem);line-height:1.06;color:#FBF7F4;text-wrap:balance">{{ lead.title }}</h2>
+        <p style="margin:18px 0 0;font-size:16px;line-height:1.62;text-wrap:pretty">{{ lead.description }}</p>
+        <span style="margin-top:28px;font-size:15px;font-weight:500;color:#FFFFFF">{{ ui.read }} ›</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section data-screen-label="03 Artigos" style="padding:0 0 clamp(96px,12vw,160px)">
+  <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,4vw,48px);display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:20px">
+    <sc-for list="{{ rest }}" as="p" hint-placeholder-count="6">
+      <a data-reveal="" href="{{ p.href }}" style="display:flex;flex-direction:column;min-height:320px;padding:32px;border-radius:28px;background:#FFFFFF;color:#3A3532;transition:transform .5s cubic-bezier(.22,1,.36,1),box-shadow .5s" style-hover="transform:translateY(-4px);box-shadow:0 30px 60px -30px rgba(36,16,33,0.22);color:#3A3532">
+        <p style="margin:0;display:flex;gap:12px;font-size:13px;color:#7A716B"><span style="color:#8E1348;font-weight:500">{{ p.category }}</span><span>{{ p.dateFmt }}</span></p>
+        <h3 style="margin:20px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:1.65rem;line-height:1.14;color:#241021;text-wrap:balance">{{ p.title }}</h3>
+        <p style="margin:14px 0 0;font-size:15px;line-height:1.6;text-wrap:pretty">{{ p.description }}</p>
+        <p style="margin:auto 0 0;padding-top:24px;display:flex;justify-content:space-between;font-size:13px;color:#7A716B"><span style="color:#8E1348;font-weight:500">{{ ui.read }} ›</span><span>{{ p.readingTime }} {{ a.readTime }}</span></p>
+      </a>
+    </sc-for>
+  </div>
+</section>
+
+</main>
+<dc-import name="SiteFooter" hint-size="100%,520px"></dc-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { d: null, posts: [], cat: null, subscribed: false };
+  componentDidMount() {
+    const boot = () => { if (!window.CPData) return setTimeout(boot, 30); this.setState({ cat: CPData.param('cat') }); this.off = CPData.onLang(() => this.load()); this.load(); };
+    boot();
+  }
+  componentWillUnmount() { this.off && this.off(); }
+  async load() { const lang = CPData.getLang(); const d = await CPData.load(lang); const posts = await CPData.posts(lang); this.setState({ d, posts }, () => CPData.reveal()); }
+  renderVals() {
+    const { d, posts, cat, subscribed } = this.state;
+    if (!d) return { ui: {}, a: {}, n: {}, lead: {} };
+    const names = [...new Set(posts.map(p => p.category))];
+    const valid = names.includes(cat) ? cat : null;
+    const list = valid ? posts.filter(p => p.category === valid) : posts;
+    const chip = (t, key, count) => { const on = key === valid; return { t, count, active: on, bg: on ? '#241021' : 'transparent', fg: on ? '#FBF7F4' : '#241021', bd: on ? '#241021' : '#CBBFB6', select: () => { this.setState({ cat: key }, () => CPData.reveal()); } }; };
+    return {
+      ui: d.ui, a: d.dict.articles, n: d.dict.newsletter,
+      cats: [chip(d.ui.all, null, posts.length), ...names.map(c => chip(c, c, posts.filter(p => p.category === c).length))],
+      lead: list[0] || {}, rest: list.slice(1),
+      subscribed, notSubscribed: !subscribed,
+      subscribe: e => { e.preventDefault(); this.setState({ subscribed: true }); }
+    };
+  }
+}
+</script>
+</body>
+</html>

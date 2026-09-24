@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+</helmet>
+<div onMouseLeave="{{ closeMega }}" style="position:fixed;top:0;left:0;right:0;z-index:50">
+  <header style="height:64px;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:{{ bg }};border-bottom:1px solid {{ line }};transition:background .4s ease,border-color .4s ease">
+    <div style="max-width:1200px;height:100%;margin:0 auto;padding:0 clamp(20px,4vw,48px);display:flex;align-items:center;justify-content:space-between;gap:24px">
+      <a href="{{ pages.home }}" aria-label="Dra. Carine Petry" style="display:flex;align-items:center;height:44px;flex:none">
+        <sc-if value="{{ dark }}" hint-placeholder-val="{{ false }}">
+          <img src="https://res.cloudinary.com/dlzrfhwin/image/upload/f_auto,q_auto:best,w_1000/v1784824334/Logo_-_Footer_Site_-_Carine_Petry_dd7yxf.png" alt="Dra. Carine Petry" style="height:30px;width:auto;display:block">
+        </sc-if>
+        <sc-if value="{{ light }}" hint-placeholder-val="{{ true }}">
+          <img src="https://res.cloudinary.com/dlzrfhwin/image/upload/f_auto,q_auto:best,w_1000/v1784824334/Logo_-_Header_Site_-_Carine_Petry_eqr3hz.png" alt="Dra. Carine Petry" style="height:30px;width:auto;display:block">
+        </sc-if>
+      </a>
+      <sc-if value="{{ wide }}" hint-placeholder-val="{{ true }}">
+        <nav aria-label="Navegação principal" style="display:flex;align-items:center;gap:6px;font-size:13px;letter-spacing:0.01em">
+          <a href="{{ pages.about }}" onMouseEnter="{{ closeMega }}" style="padding:10px 12px;color:{{ text }};opacity:{{ op.about }}" style-hover="opacity:1">{{ ui.nav.about }}</a>
+          <button onMouseEnter="{{ openMega }}" onClick="{{ toggleMega }}" aria-expanded="{{ mega }}" style="display:flex;align-items:center;gap:6px;padding:10px 12px;border:0;background:transparent;cursor:pointer;font-size:13px;color:{{ text }};opacity:{{ op.consult }}" style-hover="opacity:1">{{ ui.nav.consult }} <span style="display:inline-block;font-size:9px;transform:rotate({{ chev }});transition:transform .3s">▼</span></button>
+          <a href="{{ pages.talks }}" onMouseEnter="{{ closeMega }}" style="padding:10px 12px;color:{{ text }};opacity:{{ op.talks }}" style-hover="opacity:1">{{ ui.nav.talks }}</a>
+          <a href="{{ pages.contact }}" onMouseEnter="{{ closeMega }}" style="padding:10px 12px;color:{{ text }};opacity:{{ op.contact }}" style-hover="opacity:1">{{ ui.nav.contact }}</a>
+        </nav>
+      </sc-if>
+      <div style="display:flex;align-items:center;gap:12px;flex:none">
+        <div role="group" aria-label="Idioma / Language" style="display:flex;padding:3px;border-radius:999px;background:{{ segBg }}">
+          <button onClick="{{ setPt }}" aria-pressed="{{ isPt }}" style="height:28px;min-width:36px;padding:0 10px;border:0;border-radius:999px;cursor:pointer;font-size:12px;font-weight:600;letter-spacing:0.04em;background:{{ ptBg }};color:{{ ptText }};transition:background .25s">PT</button>
+          <button onClick="{{ setEn }}" aria-pressed="{{ isEn }}" style="height:28px;min-width:36px;padding:0 10px;border:0;border-radius:999px;cursor:pointer;font-size:12px;font-weight:600;letter-spacing:0.04em;background:{{ enBg }};color:{{ enText }};transition:background .25s">EN</button>
+        </div>
+        <sc-if value="{{ wide }}" hint-placeholder-val="{{ true }}">
+          <a href="{{ pages.contact }}" style="display:inline-flex;align-items:center;height:34px;padding:0 16px;border-radius:999px;white-space:nowrap;background:#B01755;color:#FFFFFF;font-size:13px;font-weight:500" style-hover="background:#8E1348;color:#FFFFFF">{{ ui.book }}</a>
+        </sc-if>
+        <sc-if value="{{ narrow }}" hint-placeholder-val="{{ false }}">
+          <button onClick="{{ toggleSheet }}" aria-label="Menu" style="width:44px;height:44px;border:0;background:transparent;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px">
+            <span style="display:block;width:18px;height:1.5px;background:{{ text }}"></span>
+            <span style="display:block;width:18px;height:1.5px;background:{{ text }}"></span>
+          </button>
+        </sc-if>
+      </div>
+    </div>
+  </header>
+
+  <sc-if value="{{ megaShown }}" hint-placeholder-val="{{ false }}">
+    <div style="backdrop-filter:saturate(180%) blur(24px);-webkit-backdrop-filter:saturate(180%) blur(24px);background:{{ megaBg }};border-bottom:1px solid {{ line }};box-shadow:0 40px 60px -40px rgba(36,16,33,0.35)">
+      <div style="max-width:1200px;margin:0 auto;padding:40px clamp(20px,4vw,48px) 48px;display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:48px">
+        <div>
+          <p style="margin:0 0 16px;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:{{ sub }}">{{ ui.nav.consult }}</p>
+          <div style="display:flex;flex-direction:column;gap:18px">
+            <a href="{{ pages.approach }}" style="display:block;color:{{ text }}" style-hover="opacity:0.8"><span style="display:block;font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;line-height:1.1">{{ ui.nav.approach }}</span><span style="display:block;margin-top:4px;font-size:13px;color:{{ sub }}">{{ ui.approachDesc }}</span></a>
+            <a href="{{ pages.areas }}" style="display:block;color:{{ text }}" style-hover="opacity:0.8"><span style="display:block;font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;line-height:1.1">{{ ui.nav.areas }}</span><span style="display:block;margin-top:4px;font-size:13px;color:{{ sub }}">{{ ui.areasDesc }}</span></a>
+            <a href="{{ pages.conds }}" style="display:block;color:{{ text }}" style-hover="opacity:0.8"><span style="display:block;font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;line-height:1.1">{{ ui.nav.conds }}</span><span style="display:block;margin-top:4px;font-size:13px;color:{{ sub }}">{{ ui.condsDesc }}</span></a>
+          </div>
+        </div>
+        <div>
+          <p style="margin:0 0 16px;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:{{ sub }}">{{ ui.nav.areas }}</p>
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <sc-for list="{{ areas }}" as="a" hint-placeholder-count="4">
+              <a href="{{ a.href }}" style="font-size:15px;font-weight:500;color:{{ text }}" style-hover="color:#B01755">{{ a.t }}</a>
+            </sc-for>
+          </div>
+        </div>
+        <div>
+          <p style="margin:0 0 16px;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:{{ sub }}">{{ ui.nav.conds }}</p>
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <sc-for list="{{ condsShort }}" as="c" hint-placeholder-count="6">
+              <a href="{{ c.href }}" style="font-size:13px;line-height:1.4;color:{{ text }};opacity:0.8" style-hover="opacity:1">{{ c.t }}</a>
+            </sc-for>
+            <a href="{{ pages.conds }}" style="margin-top:6px;font-size:13px;font-weight:500;color:#D0457F">{{ ui.seeAll }} ›</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+</div>
+
+<sc-if value="{{ sheet }}" hint-placeholder-val="{{ false }}">
+  <div style="position:fixed;inset:0;z-index:60;background:#241021;color:#F0E7E2;padding:12px clamp(20px,4vw,48px) 32px;display:flex;flex-direction:column;overflow-y:auto">
+    <div style="display:flex;justify-content:flex-end">
+      <button onClick="{{ toggleSheet }}" aria-label="{{ ui.close }}" style="width:44px;height:44px;border:0;background:transparent;color:#F0E7E2;font-size:28px;cursor:pointer">×</button>
+    </div>
+    <nav style="display:flex;flex-direction:column;margin-top:16px">
+      <a href="{{ pages.about }}" style="padding:10px 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;color:#F0E7E2">{{ ui.nav.about }}</a>
+      <a href="{{ pages.approach }}" style="padding:10px 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;color:#F0E7E2">{{ ui.nav.consult }}</a>
+      <div style="display:flex;flex-direction:column;gap:4px;padding:0 0 12px 18px;border-left:1px solid rgba(240,231,226,0.16);margin-left:4px">
+        <a href="{{ pages.approach }}" style="padding:8px 0;font-size:16px;color:#C9B4BF">{{ ui.nav.approach }}</a>
+        <a href="{{ pages.areas }}" style="padding:8px 0;font-size:16px;color:#C9B4BF">{{ ui.nav.areas }}</a>
+        <a href="{{ pages.conds }}" style="padding:8px 0;font-size:16px;color:#C9B4BF">{{ ui.nav.conds }}</a>
+      </div>
+      <a href="{{ pages.talks }}" style="padding:10px 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;color:#F0E7E2">{{ ui.nav.talks }}</a>
+      <a href="{{ pages.contact }}" style="padding:10px 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;color:#F0E7E2">{{ ui.nav.contact }}</a>
+      <a href="{{ pages.content }}" style="padding:10px 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;color:#F0E7E2">{{ ui.nav.content }}</a>
+    </nav>
+    <a href="{{ pages.contact }}" style="margin-top:32px;display:flex;align-items:center;justify-content:center;height:52px;border-radius:999px;background:#B01755;color:#FFFFFF;font-size:15px;font-weight:500">{{ ui.book }}</a>
+  </div>
+</sc-if>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;current&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;&quot;,&quot;about&quot;,&quot;consult&quot;,&quot;talks&quot;,&quot;contact&quot;],&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;}}">
+class Component extends DCLogic {
+  state = { lang: 'pt', dict: null, over: true, mega: false, sheet: false, w: typeof window !== 'undefined' ? window.innerWidth : 1280 };
+  componentDidMount() {
+    const boot = () => {
+      if (!window.CPData) return setTimeout(boot, 30);
+      this.off = CPData.onLang(() => this.load());
+      this.load();
+    };
+    boot();
+    this.onScroll = () => {
+      const h = document.querySelector('[data-hero-dark]');
+      const over = !!h && window.scrollY < h.offsetHeight - 64;
+      if (over !== this.state.over) this.setState({ over });
+    };
+    this.onResize = () => this.setState({ w: window.innerWidth });
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+    window.addEventListener('resize', this.onResize);
+    setTimeout(this.onScroll, 120); setTimeout(this.onScroll, 800);
+  }
+  componentWillUnmount() { this.off && this.off(); window.removeEventListener('scroll', this.onScroll); window.removeEventListener('resize', this.onResize); }
+  async load() { const lang = CPData.getLang(); const d = await CPData.load(lang); this.setState({ lang, dict: d.dict }); }
+  renderVals() {
+    const { lang, dict, over, mega, sheet, w } = this.state;
+    const C = window.CPData;
+    const ui = C ? C.UI[lang] : { nav: {} };
+    const P = C ? C.PAGES : {};
+    const dark = over;
+    const cur = this.props.current || '';
+    const text = dark ? '#F0E7E2' : '#241021';
+    const opFor = k => (cur === k ? 1 : 0.78);
+    const areas = dict ? dict.areasHome.items.map(a => ({ t: a.t, href: CPData.condHref(a.slug) })) : [];
+    const condsShort = dict ? dict.conditions.items.filter(c => !c.slug).slice(0, 6).map(c => ({ t: c.t, href: P.conds })) : [];
+    return {
+      ui, pages: P, dark, light: !dark, text,
+      sub: dark ? '#C9B4BF' : '#7A716B',
+      bg: dark ? (mega ? 'rgba(36,16,33,0.92)' : 'rgba(36,16,33,0.55)') : 'rgba(251,247,244,0.82)',
+      megaBg: dark ? 'rgba(36,16,33,0.92)' : 'rgba(251,247,244,0.94)',
+      line: dark ? 'rgba(240,231,226,0.08)' : 'rgba(36,16,33,0.08)',
+      op: { about: opFor('about'), consult: opFor('consult'), talks: opFor('talks'), contact: opFor('contact') },
+      wide: w >= 980, narrow: w < 980, mega, megaShown: mega && w >= 980, chev: mega ? '180deg' : '0deg', sheet,
+      areas, condsShort,
+      openMega: () => this.setState({ mega: true }), closeMega: () => this.state.mega && this.setState({ mega: false }),
+      toggleMega: () => this.setState(s => ({ mega: !s.mega })), toggleSheet: () => this.setState(s => ({ sheet: !s.sheet })),
+      isPt: lang === 'pt', isEn: lang === 'en',
+      segBg: dark ? 'rgba(240,231,226,0.1)' : 'rgba(36,16,33,0.06)',
+      ptBg: lang === 'pt' ? (dark ? '#F0E7E2' : '#241021') : 'transparent', ptText: lang === 'pt' ? (dark ? '#241021' : '#FBF7F4') : text,
+      enBg: lang === 'en' ? (dark ? '#F0E7E2' : '#241021') : 'transparent', enText: lang === 'en' ? (dark ? '#241021' : '#FBF7F4') : text,
+      setPt: () => C && C.setLang('pt'), setEn: () => C && C.setLang('en')
+    };
+  }
+}
+</script>
+</body>
+</html>
