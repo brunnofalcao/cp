@@ -7,7 +7,17 @@
       "permanent": true
     },
     {
+      "source": "/teste/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/abordagem",
+      "destination": "/consulta/",
+      "permanent": true
+    },
+    {
+      "source": "/abordagem/",
       "destination": "/consulta/",
       "permanent": true
     },
@@ -17,7 +27,17 @@
       "permanent": true
     },
     {
+      "source": "/areas/",
+      "destination": "/consulta/areas/",
+      "permanent": true
+    },
+    {
       "source": "/condicoes",
+      "destination": "/consulta/condicoes/",
+      "permanent": true
+    },
+    {
+      "source": "/condicoes/",
       "destination": "/consulta/condicoes/",
       "permanent": true
     },
@@ -27,7 +47,17 @@
       "permanent": true
     },
     {
+      "source": "/condicoes/:slug/",
+      "destination": "/consulta/condicoes/:slug/",
+      "permanent": true
+    },
+    {
       "source": "/blog",
+      "destination": "/conteudo/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/",
       "destination": "/conteudo/",
       "permanent": true
     },
@@ -37,7 +67,17 @@
       "permanent": true
     },
     {
+      "source": "/blog/:slug/",
+      "destination": "/conteudo/:slug/",
+      "permanent": true
+    },
+    {
       "source": "/en/teste",
+      "destination": "/en/",
+      "permanent": true
+    },
+    {
+      "source": "/en/teste/",
       "destination": "/en/",
       "permanent": true
     },
@@ -47,7 +87,17 @@
       "permanent": true
     },
     {
+      "source": "/en/abordagem/",
+      "destination": "/en/consulta/",
+      "permanent": true
+    },
+    {
       "source": "/en/areas",
+      "destination": "/en/consulta/areas/",
+      "permanent": true
+    },
+    {
+      "source": "/en/areas/",
       "destination": "/en/consulta/areas/",
       "permanent": true
     },
@@ -57,7 +107,17 @@
       "permanent": true
     },
     {
+      "source": "/en/condicoes/",
+      "destination": "/en/consulta/condicoes/",
+      "permanent": true
+    },
+    {
       "source": "/en/condicoes/:slug",
+      "destination": "/en/consulta/condicoes/:slug/",
+      "permanent": true
+    },
+    {
+      "source": "/en/condicoes/:slug/",
       "destination": "/en/consulta/condicoes/:slug/",
       "permanent": true
     },
@@ -67,7 +127,17 @@
       "permanent": true
     },
     {
+      "source": "/en/blog/",
+      "destination": "/en/conteudo/",
+      "permanent": true
+    },
+    {
       "source": "/en/blog/:slug",
+      "destination": "/en/conteudo/:slug/",
+      "permanent": true
+    },
+    {
+      "source": "/en/blog/:slug/",
       "destination": "/en/conteudo/:slug/",
       "permanent": true
     }
